@@ -79,7 +79,6 @@ nav {
 .navbar-bottom {
   position: fixed;
   bottom: 0;
-
   max-width: 1200px;
 }
 .navbar-bottom-content {
@@ -104,6 +103,7 @@ nav {
   margin-bottom: 0.2em;
   font-size: 24px;
 }
+
 .page-content-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -116,6 +116,11 @@ section {
   display: flex;
   flex-direction: column;
   gap: 2em;
+}
+.introduction > a {
+  text-align: center;
+  color: var(--col-secondary);
+  font-size: 32px;
 }
 .section-headings {
   padding-bottom: 16px;
@@ -190,5 +195,20 @@ button {
   .ui-cards-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: 64px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .introduction > p {
+    width: 80%;
+  }
+  .skills-icons {
+    gap: 0.5em;
+    font-size: 40px;
+    margin-bottom: 40px;
   }
 }
