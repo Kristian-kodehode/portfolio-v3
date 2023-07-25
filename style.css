@@ -39,21 +39,31 @@ body::-webkit-scrollbar {
   gap: 16px;
 }
 .ui-card {
-  border: 1px solid black;
   min-width: 350px;
-}
-.ui-card-text-container {
-  padding: 16px;
+  background-color: var(--col-primary);
+  border-radius: 8px;
+  box-shadow: -1px -1px 4px #55b6cc, 5px 6px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 .ui-card-image {
   height: 345px;
   width: 100%;
   object-fit: cover;
 }
+.ui-card-text-container {
+  padding: 16px;
+}
+.ui-card-text-container > p {
+  padding: 16px 0px;
+}
 .ui-card-icons {
-  display: flex;
-  gap: 0.6em;
+  align-items: center;
+}
+.ui-icon {
+  margin-right: 16px;
   font-size: 20px;
+}
+.ui-card-button {
 }
 
 /*MEDIA QUERY */
