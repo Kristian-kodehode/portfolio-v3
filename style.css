@@ -111,8 +111,9 @@ nav {
 }
 section {
   padding: 96px 16px 0px 16px;
-  height: 100vh;
+  /* height: 100vh; */
 }
+
 .introduction {
   display: flex;
   flex-direction: column;
@@ -156,6 +157,7 @@ button {
   grid-template-columns: repeat(1, 1fr);
   gap: 16px;
   margin-bottom: 40px;
+  border: 1px solid black;
 }
 .ui-card {
   min-width: 350px;
