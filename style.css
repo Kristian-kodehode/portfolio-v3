@@ -71,6 +71,11 @@ button {
 .ui-card-text-container {
   padding: 16px;
 }
+.ui-card-text-container > h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+}
 .ui-card-text-container > p {
   padding: 4px 0px 12px 0px;
   font-weight: 300;
