@@ -109,7 +109,7 @@ nav {
   margin: 0 auto;
 }
 section {
-  padding: 95px 16px 0px 16px;
+  padding: 96px 16px 0px 16px;
   height: 100vh;
 }
 .introduction {
@@ -124,6 +124,7 @@ section {
 }
 .section-headings {
   padding-bottom: 16px;
+  font-size: 24px;
 }
 .skills-icons {
   display: flex;
@@ -210,5 +211,8 @@ button {
     gap: 0.5em;
     font-size: 40px;
     margin-bottom: 40px;
+  }
+  .section-headings {
+    font-size: 32px;
   }
 }
