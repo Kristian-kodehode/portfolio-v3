@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --col-primary: #3a7d8c;
   --col-primary80: hsla(191, 41%, 39%, 0.3);
@@ -33,6 +32,11 @@ section {
 .section-headings {
   padding-bottom: 16px;
 }
+.page-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
 button {
   border: 1px solid var(--col-secondary);
   background-color: var(--col-primary);
@@ -44,12 +48,6 @@ button {
   width: 100%;
   cursor: pointer;
   margin-top: 16px;
-}
-
-.page-content-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 16px;
 }
 
 .ui-cards-container {
