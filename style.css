@@ -22,6 +22,7 @@ body {
   background-color: var(--col-primary);
   color: var(--col-secondary);
   max-width: 1200px;
+  /* width: 100vw; */
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
@@ -38,12 +39,14 @@ p {
 nav {
   height: 80px;
   width: 100vw;
+  width: 100%;
   background-color: var(--col-primary80);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 }
 .navbar-top {
   position: fixed;
+
   top: 0;
   padding: 16px;
   max-width: 1200px;
@@ -111,14 +114,13 @@ nav {
 }
 section {
   padding: 96px 16px 0px 16px;
-  /* height: 100vh; */
 }
 
 .introduction {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  padding: 96px 16px 0px 16px;
+  /* padding: 96px 16px 0px 16px; */
   height: 100vh;
 }
 .introduction > a {
