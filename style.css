@@ -21,7 +21,7 @@ html {
 body {
   background-color: var(--col-primary);
   color: var(--col-secondary);
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
@@ -43,18 +43,32 @@ nav {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 }
-.navbar-top {
+.navbar-top,
+.navbar-bottom {
   position: fixed;
-
-  top: 0;
-  padding: 16px;
-  max-width: 1200px;
+  width: 100vw;
 }
-.navbar-top-content {
+.navbar-top {
+  top: 0;
+}
+.navbar-bottom {
+  bottom: 0;
+}
+
+.navbar-top-content,
+.navbar-bottom-content {
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+}
+.navbar-top-content {
+  padding: 16px;
   align-items: center;
+}
+
+.navbar-bottom-content {
+  padding: 0 16px;
 }
 .circle-mail-icon {
   border: 1px solid var(--col-secondary);
@@ -79,17 +93,6 @@ nav {
   outline: none;
 }
 
-.navbar-bottom {
-  position: fixed;
-  bottom: 0;
-  max-width: 1200px;
-}
-.navbar-bottom-content {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 16px;
-}
 .navbar-bottom-items {
   margin-top: 8px;
   display: flex;
