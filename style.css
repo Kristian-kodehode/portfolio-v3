@@ -21,6 +21,8 @@ html {
 body {
   background-color: var(--col-primary);
   color: var(--col-secondary);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 body::-webkit-scrollbar {
   display: none;
