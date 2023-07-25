@@ -148,6 +148,8 @@ button {
   margin-top: 16px;
 }
 
+/* UI CARDS STYLING */
+
 .ui-cards-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -186,9 +188,9 @@ button {
   margin-right: 10px;
   font-size: 20px;
 }
-
 .ui-card-button {
   width: 100%;
+  bottom: 0;
 }
 
 /*MEDIA QUERY */
