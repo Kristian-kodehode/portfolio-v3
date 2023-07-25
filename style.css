@@ -29,6 +29,9 @@ body::-webkit-scrollbar {
 section {
   height: 100vh;
 }
+.section-headings {
+  padding-bottom: 16px;
+}
 button {
   border: 1px solid var(--col-secondary);
   background-color: var(--col-primary);
@@ -69,7 +72,9 @@ button {
   padding: 16px;
 }
 .ui-card-text-container > p {
-  padding: 16px 0px;
+  padding: 4px 0px 12px 0px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 .ui-card-icons {
   align-items: center;
