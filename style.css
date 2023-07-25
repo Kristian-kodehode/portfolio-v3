@@ -211,9 +211,6 @@ button {
 }
 .accordion-item {
   border: 1px solid var(--col-secondary);
-  /* border-radius: 8px; */
-  /* overflow: hidden; */
-  /* margin-bottom: 8px; */
 }
 .accordion-header {
   background-color: var(--col-primary);
@@ -222,18 +219,16 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-.accordion-header > p {
-  font-size: 18px;
+.accordian-icons {
+  font: 10px;
+}
+.accordion-header:hover .accordian-icons {
+  transform: rotate(180deg);
 }
 .accordion-content {
   display: none;
   padding: 16px;
 }
-.accordion-content p {
-  margin: 0;
-  font-size: 14px;
-}
-
 .active {
   display: block;
 }
