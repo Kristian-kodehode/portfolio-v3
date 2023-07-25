@@ -25,6 +25,18 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+nav {
+  /* border: 1px solid black; */
+  height: 80px;
+  width: 100%;
+  background-color: var(--col-primary80);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+.navbar-top {
+  position: fixed;
+  top: 0;
+}
 section {
   /* height: 100vh; */
   padding-top: 95px;
