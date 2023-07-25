@@ -26,6 +26,21 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+section {
+  height: 100vh;
+}
+button {
+  border: 1px solid var(--col-secondary);
+  background-color: var(--col-primary);
+  color: var(--col-secondary);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 16px;
+}
 
 .page-content-container {
   max-width: 1200px;
@@ -63,7 +78,9 @@ body::-webkit-scrollbar {
   margin-right: 16px;
   font-size: 20px;
 }
+
 .ui-card-button {
+  width: 100%;
 }
 
 /*MEDIA QUERY */
