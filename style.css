@@ -21,11 +21,20 @@ html {
 body {
   background-color: var(--col-primary);
   color: var(--col-secondary);
-  /* max-width: 1200px; */
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
   display: none;
+}
+section {
+  padding: 96px 16px 0px 16px;
+}
+.page-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-about {
+  height: 100vh;
 }
 h1 {
   font-size: 40px;
@@ -35,18 +44,18 @@ p {
   line-height: 1.5;
 }
 
+/* NAV BAR */
 nav {
   height: 80px;
   width: 100vw;
-  width: 100%;
   background-color: var(--col-primary80);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
+  border: 1px solid black;
 }
 .navbar-top,
 .navbar-bottom {
   position: fixed;
-  width: 100vw;
 }
 .navbar-top {
   top: 0;
@@ -75,8 +84,14 @@ nav {
   gap: 6px;
 }
 .navbar-bottom-items > p {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
+}
+/* ICONS */
+.svg-items {
+  color: var(--col-secondary);
+  margin-bottom: 0.2em;
+  font-size: 24px;
 }
 .circle-mail-icon {
   border: 1px solid var(--col-secondary);
@@ -85,6 +100,8 @@ nav {
   font-size: 24px;
   color: var(--col-secondary);
 }
+
+/* THEME SELECTOR */
 .theme-dropdown {
   border: none;
   font-size: 24px;
@@ -99,20 +116,6 @@ nav {
 }
 #themeSelect:focus {
   outline: none;
-}
-
-.svg-items {
-  color: var(--col-secondary);
-  margin-bottom: 0.2em;
-  font-size: 24px;
-}
-
-.page-content-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-section {
-  padding: 96px 16px 0px 16px;
 }
 
 .introduction {
@@ -210,6 +213,9 @@ button {
   p {
     font-size: 24px;
     line-height: 1.5;
+  }
+  .svg-items {
+    font-size: 26px;
   }
   .introduction > p {
     width: 80%;
