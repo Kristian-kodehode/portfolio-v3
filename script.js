@@ -38,3 +38,21 @@ const changeColors = () => {
 document.getElementById("themeSelect").addEventListener("change", changeColors);
 
 fetchColorThemes();
+
+// ACCORDIAN LOGIG
+document.addEventListener("DOMContentLoaded", function () {
+  const accordionItems = document.querySelectorAll(".accordion-item");
+
+  accordionItems.forEach(function (item) {
+    const header = item.querySelector(".accordion-header");
+
+    header.addEventListener("click", function () {
+      accordionItems.forEach(function (item) {
+        item.querySelector(".accordion-content").classList.remove("active");
+      });
+
+      const content = item.querySelector(".accordion-content");
+      content.classList.toggle("active");
+    });
+  });
+});

@@ -201,6 +201,40 @@ button {
   bottom: 0;
 }
 
+/*
+
+
+
+*/
+
+.accordion {
+  /* max-width: 400px; */
+  margin: 20px auto;
+}
+
+.accordion-item {
+  border: 1px solid var(--col-secondary);
+}
+
+.accordion-header {
+  background-color: var(--col-primary);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+.active {
+  display: block;
+}
+
 /*MEDIA QUERY */
 @media only screen and (min-width: 768px) {
   .ui-cards-container {
