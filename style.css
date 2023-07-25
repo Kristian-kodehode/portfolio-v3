@@ -27,6 +27,10 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+h1 {
+  font-size: 40px;
+}
+
 nav {
   height: 80px;
   width: 100vw;
