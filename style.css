@@ -50,6 +50,11 @@ body::-webkit-scrollbar {
   width: 100%;
   object-fit: cover;
 }
+.ui-card-icons {
+  display: flex;
+  gap: 0.6em;
+  font-size: 20px;
+}
 
 /*MEDIA QUERY */
 @media only screen and (min-width: 768px) {
