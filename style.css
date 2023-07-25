@@ -36,6 +36,35 @@ nav {
 .navbar-top {
   position: fixed;
   top: 0;
+  padding: 16px;
+  max-width: 1200px;
+}
+.navbar-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle-mail-icon {
+  border: 1px solid var(--col-secondary);
+  padding: 10px;
+  border-radius: 100px;
+  font-size: 24px;
+  color: var(--col-secondary);
+}
+.theme-dropdown {
+  border: none;
+  font-size: 24px;
+}
+#themeSelect {
+  color: var(--col-secondary);
+  background-color: transparent;
+  border: 1px solid var(--col-secondary);
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+#themeSelect:focus {
+  outline: none;
 }
 section {
   /* height: 100vh; */
@@ -49,6 +78,7 @@ section {
   margin: 0 auto;
   padding: 16px;
 }
+
 button {
   border: 1px solid var(--col-secondary);
   background-color: var(--col-primary);
