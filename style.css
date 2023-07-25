@@ -27,10 +27,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.page-content {
-  padding: 16px;
+.page-content-container {
+  max-width: 1200px;
   margin: 0 auto;
-  display: block;
+  padding: 16px;
 }
 
 .ui-cards-container {
@@ -50,9 +50,6 @@ body::-webkit-scrollbar {
 
 /*MEDIA QUERY */
 @media only screen and (min-width: 768px) {
-  body {
-    max-width: 1200px;
-  }
   .ui-cards-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
