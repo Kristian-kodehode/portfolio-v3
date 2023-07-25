@@ -17,7 +17,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-color: var(--col-primary);
   color: var(--col-secondary);
@@ -51,7 +50,6 @@ nav {
   background-color: var(--col-primary80);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  border: 1px solid black;
 }
 .navbar-top,
 .navbar-bottom {
@@ -208,25 +206,21 @@ button {
 */
 
 .accordion {
-  /* max-width: 400px; */
-  margin: 20px auto;
+  padding-top: 90px;
+  height: 100vh;
 }
-
 .accordion-item {
   border: 1px solid var(--col-secondary);
 }
-
 .accordion-header {
   background-color: var(--col-primary);
-  padding: 10px;
+  padding: 16px;
   cursor: pointer;
 }
-
 .accordion-content {
   display: none;
-  padding: 10px;
+  padding: 16px;
 }
-
 .accordion-content p {
   margin: 0;
 }
