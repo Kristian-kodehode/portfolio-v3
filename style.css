@@ -97,8 +97,13 @@ nav {
   font-size: 24px;
 }
 section {
-  /* height: 100vh; */
-  padding-top: 95px;
+  padding: 95px 16px 0px 16px;
+  height: 100vh;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 .section-headings {
   padding-bottom: 16px;
@@ -106,7 +111,6 @@ section {
 .page-content-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 16px;
 }
 
 button {
