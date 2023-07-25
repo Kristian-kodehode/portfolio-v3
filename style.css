@@ -30,6 +30,10 @@ body::-webkit-scrollbar {
 h1 {
   font-size: 40px;
 }
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
 
 nav {
   height: 80px;
@@ -100,6 +104,10 @@ nav {
   margin-bottom: 0.2em;
   font-size: 24px;
 }
+.page-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 section {
   padding: 95px 16px 0px 16px;
   height: 100vh;
@@ -112,9 +120,13 @@ section {
 .section-headings {
   padding-bottom: 16px;
 }
-.page-content-container {
-  max-width: 1200px;
-  margin: 0 auto;
+.skills-icons {
+  display: flex;
+  gap: 0.5em;
+  color: var(--col-secondary);
+  opacity: 0.6;
+  font-size: 24px;
+  z-index: -1;
 }
 
 button {
