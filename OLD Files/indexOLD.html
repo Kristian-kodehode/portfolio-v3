@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c873273b0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+    <title>Portfolio_Kristian Køningsberg</title>
+  </head>
+  <body>
+    <section class="grain-texture"></section>
+    <svg
+      width="200"
+      height="200"
+      viewBox="0 0 220 220"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <filter id="noise">
+        <feturbulence type="turbulence" baseFrequency="0.6" numOctaves="3" />
+      </filter>
+    </svg>
+    <div class="wrapper">
+      <header id="header-item" class="sticky-header">
+        <a
+          href="mailto:kristian007.kodehode@gmail.com?subject=I would like to have a chat with you"
+        >
+          <i class="fa-solid fa-envelope" id="circle-mail-icon"></i>
+        </a>
+        <div class="theme-dropdown">
+          <select id="themeSelect" class="theme-hidden">
+            <option value="0">Blue</option>
+            <option value="1">Dark</option>
+            <option value="2">Light</option>
+          </select>
+        </div>
+      </header>
+      <main class="main-container">
+        <section id="introduction" class="introduction">
+          <h1>
+            Welcome <span style="font-weight: 100">to the</span> <br />
+            portfolio <span style="font-weight: 100">of</span> <br />
+            Kristian
+          </h1>
+          <p>
+            My name is <span style="font-weight: 700">Kristian</span> and i am a
+            frontend developer, UI designer and
+            <span style="font-weight: 700">graphic designer</span> from
+            <span style="font-weight: 700">Stavanger</span>. I have a just
+            finished a 6 month intense
+            <span style="font-weight: 700">frontend</span> dev program with
+            Kodehodene and i am now looking for new and
+            <span style="font-weight: 700">exciting</span> job oportunities.
+          </p>
+          <div class="skills-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-figma"></i>
+          </div>
+          <a href="#projects-section">
+            <!-- <img src="icons/arrow icon 40px.svg" alt="" /> -->
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+        </section>
+
+        <section id="projects-section">
+          <h2>Projects</h2>
+          <div class="projects-container">
+            <div class="card-project">
+              <img src="images/tictactoe.png" alt="Tic Tac Toe Game" />
+              <div class="card-info">
+                <h3>Tic Tac Toe Game</h3>
+                <p>
+                  The classic game, tic tac toe with a modern and bright look.
+                  This started out as a tutorial on React.
+                </p>
+                <div class="card-icons">
+                  <!-- <img src="icons/css.svg" alt="css logo icon svg" />
+                  <img src="icons/html.svg" alt="html logo icon svg" />
+                  <img src="icons/react.svg" alt="react logo icon svg" /> -->
+                  <i class="fa-brands fa-html5"></i>
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <i class="fa-brands fa-react"></i>
+                  <!-- <img src="icons/adobe.svg" alt="adobe logo icon svg" />
+                  <img src="icons/figma.svg" alt="figma logo icon svg" />
+                  <img src="icons/affinity.svg" alt="affinity logo icon svg" /> -->
+                </div>
+
+                <a href="https://github.com/Kristian-kodehode/react-tictactoe"
+                  ><button class="card-button">Experience Project</button></a
+                >
+              </div>
+            </div>
+            <div class="card-project">
+              <img
+                src="images/IncrediBuy.jpg"
+                alt="Chillix streaming homepage design"
+              />
+              <div class="card-info">
+                <h3>chillix streaming</h3>
+                <p>
+                  Incredibuy is a community for art sellers and buyers to
+                  connect through art. They can buy, trade and sell with
+                  eachother.
+                </p>
+                <div class="card-icons">
+                  <!-- <img src="icons/css.svg" alt="css logo icon svg" /> -->
+                  <!-- <img src="icons/html.svg" alt="html logo icon svg" /> -->
+                  <img src="icons/adobe.svg" alt="adobe logo icon svg" />
+                  <img src="icons/figma.svg" alt="figma logo icon svg" />
+                  <img src="icons/affinity.svg" alt="affinity logo icon svg" />
+                </div>
+                <button class="card-button">Experience project</button>
+              </div>
+            </div>
+            <div class="card-project">
+              <img
+                src="images/ChillixHome.jpg"
+                alt="Chillix streaming homepage design"
+              />
+              <div class="card-info">
+                <h3>chillix streaming</h3>
+                <p>
+                  Figma casestudy where making a new streaming platform was the
+                  goal. Allowed to take inspiration from current platforms.
+                </p>
+                <div class="card-icons">
+                  <!-- <img src="icons/css.svg" alt="css logo icon svg" /> -->
+                  <!-- <img src="icons/html.svg" alt="html logo icon svg" /> -->
+                  <img src="icons/adobe.svg" alt="adobe logo icon svg" />
+                  <img src="icons/figma.svg" alt="figma logo icon svg" />
+                  <img src="icons/affinity.svg" alt="affinity logo icon svg" />
+                </div>
+                <button class="card-button">Experience project</button>
+              </div>
+            </div>
+            <div class="card-project">
+              <img
+                src="images/ChillixHome.jpg"
+                alt="Chillix streaming homepage design"
+              />
+              <div class="card-info">
+                <h3>chillix streaming</h3>
+                <p>
+                  Figma casestudy where making a new streaming platform was the
+                  goal. Allowed to take inspiration from current platforms.
+                </p>
+                <div class="card-icons">
+                  <!-- <img src="icons/css.svg" alt="css logo icon svg" /> -->
+                  <!-- <img src="icons/html.svg" alt="html logo icon svg" /> -->
+                  <img src="icons/adobe.svg" alt="adobe logo icon svg" />
+                  <img src="icons/figma.svg" alt="figma logo icon svg" />
+                  <img src="icons/affinity.svg" alt="affinity logo icon svg" />
+                </div>
+                <button class="card-button">Experience project</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about-and-contact">
+          <section id="about-section">
+            <h2>About me</h2>
+            <p>
+              Growing up in a creative and musical family have shaped me to be
+              openminded, creative and with a passion for creating things. Music
+              is a big passion of mine and i have been a musicproducer for over
+              20 years. I also enjoy doing 3d modeling in Blender. I love tech
+              and amongst those, AI has become a essential part of my workflow.
+              <br />
+              <br />
+              When I'm away from my laptop, I like playing with my cat Nora,
+              helping my mom, being a bit of a console gaming nerd, watching
+              tv-shows and being a movie buff. <br />
+              <br />
+              With my remainding time i try to get outside as much as possible,
+              to enjoy the outdoors around where i live.
+            </p>
+          </section>
+          <section id="contact-section">
+            <div class="contact-text">
+              <h2>Contact me</h2>
+              <p>..or check additional work</p>
+            </div>
+            <!-- <button>Contact me</button> -->
+            <div class="contact-wrappers">
+              <a
+                href="mailto:kristian007.kodehode@gmail.com?subject=I would like to have a chat with you"
+              >
+                <i class="fa-solid fa-envelope" id="circle-mail-icon"></i>
+              </a>
+              <a href="//github.com/Kristian-kodehode?tab=repositories">
+                <i class="fa-brands fa-github" id="circle-mail-icon"></i>
+              </a>
+              <a href="https://www.instagram.com/kkoningsberg/">
+                <i class="fa-brands fa-instagram" id="circle-mail-icon"></i>
+              </a>
+              <a
+                href="https://open.spotify.com/artist/3vnHIDc8ARHkPw3OM7lQ4e?si=zNpx6tGDQ42Xc3Xq516jdw"
+              >
+                <i class="fa-brands fa-spotify" id="circle-mail-icon"></i>
+              </a>
+            </div>
+          </section>
+        </section>
+      </main>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="nav-items">
+            <a href="#introduction">
+              <!-- <img class="svg-items" src="icons/home.svg" alt="" /> -->
+              <i class="fa-solid fa-house" id="svg-items"></i>
+            </a>
+            <p>home</p>
+          </div>
+          <div class="nav-items">
+            <a href="#projects-section">
+              <!-- <img class="svg-items" src="icons/my work.svg" alt="" /> -->
+              <i class="fa-solid fa-code" id="svg-items"></i>
+            </a>
+            <p>my work</p>
+          </div>
+          <div class="nav-items">
+            <a href="#about-section">
+              <!-- <img class="svg-items" src="icons/about.svg" alt="" /> -->
+              <i class="fa-solid fa-mug-hot" id="svg-items"></i>
+            </a>
+            <p>about me</p>
+          </div>
+          <div class="nav-items">
+            <a href="#contact-section">
+              <!-- <img class="svg-items" src="icons/github.svg" alt="" /> -->
+              <i class="fa-solid fa-envelope" id="svg-items"></i>
+            </a>
+            <p>contact</p>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --col-primary: #3a7d8c;
+  --col-primary80: hsla(191, 41%, 39%, 0.3);
+  --col-secondary: #fefbd0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* font weight info:
+      montserrat : 300 
+      roboto : 100, 400, 500, 700
+  */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--col-primary);
+  color: var(--col-secondary);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.ui-cards-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.ui-card {
+  border: 1px solid black;
+  min-width: 350px;
+}
+.ui-card-image {
+  height: 345px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*MEDIA QUERY */
+@media only screen and (min-width: 768px) {
+  .ui-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
