@@ -22,7 +22,6 @@ body {
   background-color: var(--col-primary);
   color: var(--col-secondary);
   max-width: 1200px;
-  /* width: 100vw; */
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
@@ -170,7 +169,7 @@ button {
   overflow: hidden;
 }
 .ui-card-image {
-  height: 345px;
+  max-height: 345px;
   width: 100%;
   object-fit: cover;
 }
