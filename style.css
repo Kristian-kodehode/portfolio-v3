@@ -76,6 +76,7 @@ nav {
 #themeSelect:focus {
   outline: none;
 }
+
 .navbar-bottom {
   position: fixed;
   bottom: 0;
