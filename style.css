@@ -32,6 +32,10 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
+.section-headings {
+  padding-bottom: 16px;
+  font-size: 24px;
+}
 .section-about {
   height: 100vh;
 }
@@ -41,6 +45,9 @@ h1 {
 p {
   font-size: 14px;
   line-height: 1.5;
+}
+a {
+  text-decoration: none;
 }
 
 /* NAV BAR */
@@ -88,7 +95,7 @@ nav {
 /* ICONS */
 .svg-items {
   color: var(--col-secondary);
-  margin-bottom: 0.2em;
+  /* margin-bottom: 0.2em; */
   font-size: 24px;
 }
 .circle-mail-icon {
@@ -128,10 +135,7 @@ nav {
   color: var(--col-secondary);
   font-size: 32px;
 }
-.section-headings {
-  padding-bottom: 16px;
-  font-size: 24px;
-}
+
 .skills-icons {
   display: flex;
   gap: 0.5em;
@@ -148,7 +152,7 @@ button {
   font-size: 14px;
   font-weight: 700;
   border-radius: 4px;
-  padding: 16px;
+  padding: 12px;
   width: 100%;
   cursor: pointer;
   margin-top: 16px;
@@ -198,7 +202,13 @@ button {
 .ui-card-button {
   width: 100%;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
 }
+
 .ui-card-buttons-container {
   width: 100%;
 }
@@ -256,7 +266,7 @@ button {
     font-size: 64px;
   }
   p {
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 1.5;
   }
   .svg-items {
@@ -271,6 +281,6 @@ button {
     margin-bottom: 40px;
   }
   .section-headings {
-    font-size: 48px;
+    font-size: 32px;
   }
 }
