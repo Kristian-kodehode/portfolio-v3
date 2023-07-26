@@ -231,6 +231,12 @@ button {
   gap: 16px;
   font-size: 14px;
 }
+.custom-hover-icon {
+  transition: transform 1s;
+}
+button:hover .custom-hover-icon {
+  transform: rotate(360deg);
+}
 
 .ui-card-buttons-container {
   width: 100%;
