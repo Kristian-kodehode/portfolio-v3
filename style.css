@@ -95,7 +95,7 @@ nav {
 /* ICONS */
 .svg-items {
   color: var(--col-secondary);
-  /* margin-bottom: 0.2em; */
+
   font-size: 24px;
 }
 .circle-mail-icon {
@@ -104,6 +104,11 @@ nav {
   border-radius: 100px;
   font-size: 24px;
   color: var(--col-secondary);
+  transition: transform 2s ease-in-out;
+}
+
+.circle-mail-icon:hover {
+  transform: rotate(360deg);
 }
 
 /* THEME SELECTOR */
@@ -302,7 +307,7 @@ button:hover .custom-hover-icon {
     font-size: 26px;
   }
   .introduction p {
-    width: 80%;
+    width: 70%;
     font-size: 18px;
   }
   .skills-icons {
