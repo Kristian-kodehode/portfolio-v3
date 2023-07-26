@@ -301,8 +301,9 @@ button:hover .custom-hover-icon {
   .svg-items {
     font-size: 26px;
   }
-  .introduction > p {
+  .introduction p {
     width: 80%;
+    font-size: 18px;
   }
   .skills-icons {
     gap: 0.5em;
