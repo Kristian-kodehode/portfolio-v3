@@ -144,6 +144,18 @@ nav {
   font-size: 24px;
   z-index: -1;
 }
+.skills-icons .custom-icon {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 button {
   border: 1px solid var(--col-secondary);
@@ -194,6 +206,17 @@ button {
 }
 .ui-card-icons {
   align-items: center;
+}
+.ui-card-icons .custom2-icon {
+  animation: rotate2 10s linear infinite;
+}
+@keyframes rotate2 {
+  from {
+    transform: rotate(0deg); /* Start with 0 degrees rotation */
+  }
+  to {
+    transform: rotate(360deg); /* End with 360 degrees rotation (full circle) */
+  }
 }
 .ui-icon {
   margin-right: 10px;
