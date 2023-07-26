@@ -179,13 +179,14 @@ button {
 }
 .ui-card-text-container > h3 {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1.1px;
 }
 .ui-card-text-container > p {
   padding: 4px 0px 12px 0px;
   font-weight: 300;
   line-height: 1.4;
+  font-size: 14px;
 }
 .ui-card-icons {
   align-items: center;
@@ -243,7 +244,7 @@ button {
     font-size: 64px;
   }
   p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
   }
   .svg-items {
