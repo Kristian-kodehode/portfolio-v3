@@ -11,13 +11,14 @@
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-
 /* font weight info:
       montserrat : 300 
       roboto : 100, 400, 500, 700
   */
+
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
+  scroll-behavior: auto;
 }
 body {
   background-color: var(--col-primary);
