@@ -258,7 +258,7 @@ button:hover .custom-hover-icon {
   display: flex;
   gap: 16px;
 }
-.contact-me-icon:hover {
+.icon-hover-size:hover {
   transform: scale(1.2);
 }
 
