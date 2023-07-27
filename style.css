@@ -190,6 +190,9 @@ button {
   box-shadow: -1px -1px 4px #55b6cc, 5px 6px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
+.ui-card:hover {
+  transform: scale(1.006);
+}
 .ui-card-image {
   max-height: 345px;
   width: 100%;
