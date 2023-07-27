@@ -276,6 +276,11 @@ button:hover .custom-hover-icon {
   align-items: center;
   justify-content: space-between;
 }
+
+td {
+  text-align: left;
+  padding: 2px 8px;
+}
 .accordian-icons {
   font: 10px;
 }
