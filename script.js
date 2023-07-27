@@ -33,6 +33,10 @@ const changeColors = () => {
     "--col-secondary",
     currentTheme["col-secondary"]
   );
+  document.documentElement.style.setProperty(
+    "--col-secondary80",
+    currentTheme["col-secondary80"]
+  );
 };
 
 document.getElementById("themeSelect").addEventListener("change", changeColors);
