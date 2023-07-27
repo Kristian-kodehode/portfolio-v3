@@ -258,6 +258,9 @@ button:hover .custom-hover-icon {
   display: flex;
   gap: 16px;
 }
+.contact-me-icon:hover {
+  transform: scale(1.2);
+}
 
 /*
 
@@ -280,7 +283,9 @@ button:hover .custom-hover-icon {
   justify-content: space-between;
   cursor: pointer;
 }
-
+th {
+  text-align: left;
+}
 td {
   text-align: left;
   padding: 2px 8px;
