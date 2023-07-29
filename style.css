@@ -307,6 +307,9 @@ td {
 .accordian-icons {
   font: 10px;
 }
+.accordion-header:hover {
+  text-decoration: underline;
+}
 .accordion-header:hover .accordian-icons {
   transform: rotate(180deg);
 }
