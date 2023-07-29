@@ -52,6 +52,23 @@ a {
   text-decoration: none;
 }
 
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 /* NAV BAR */
 nav {
   height: 80px;
@@ -129,6 +146,24 @@ nav {
   outline: none;
 }
 
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+/*INTRODUCTION STYLING*/
 .introduction {
   display: flex;
   flex-direction: column;
@@ -180,6 +215,25 @@ button:hover {
   border: none;
 }
 
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 /* UI CARDS STYLING */
 
 .ui-cards-container {
@@ -255,6 +309,24 @@ button:hover .custom-hover-icon {
   width: 100%;
 }
 
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+/*MISC ICON STYLINGS*/
 .contact-me {
   margin: 40px 0px;
 }
@@ -273,11 +345,25 @@ button:hover .custom-hover-icon {
 }
 
 /*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 */
-
+/*ACCORDION STYLING*/
 .accordion {
   padding-top: 90px;
   height: 100vh;
@@ -317,6 +403,25 @@ td {
   display: block;
 }
 
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 /*MEDIA QUERY */
 @media only screen and (min-width: 768px) {
   .ui-cards-container {
