@@ -282,11 +282,7 @@ button:hover .custom-hover-icon {
   padding-top: 90px;
   height: 100vh;
 }
-.accordion-item {
-  /* margin-bottom: 4px; */
 
-  /* border: 1px solid var(--col-secondary); */
-}
 .accordion-header {
   /* background-color: var(--col-primary); */
   background-color: var(--col-secondary80);
