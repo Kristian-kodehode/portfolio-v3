@@ -176,6 +176,10 @@ button {
   cursor: pointer;
   margin-top: 16px;
 }
+button:hover {
+  background-color: var(--col-secondary80);
+  border: none;
+}
 
 /* UI CARDS STYLING */
 
