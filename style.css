@@ -302,6 +302,7 @@ th {
 td {
   text-align: left;
   padding: 2px 8px;
+  font-weight: 100;
 }
 .accordian-icons {
   font: 10px;
