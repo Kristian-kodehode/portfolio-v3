@@ -271,6 +271,9 @@ Easier to navigate
   line-height: 1.4;
   font-size: 14px;
 }
+.ui-card-paragraph {
+  height: 80px;
+}
 .ui-card-icons {
   align-items: center;
 }
