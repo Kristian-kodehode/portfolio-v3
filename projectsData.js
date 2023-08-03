@@ -39,6 +39,19 @@ const projectsData = {
       showFigma: true,
       githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
+    {
+      id: 4,
+      img: "images/stopwatch.png",
+      heading: "App : Stopwatch",
+      description:
+        "Yet another classic project, the stopwatch. For the style concious person that loves to even have the stopwatch look good.",
+      showHtml: true,
+      showCss: true,
+      showJs: true,
+      showReact: true,
+      showFigma: true,
+      githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
+    },
   ],
 };
 
