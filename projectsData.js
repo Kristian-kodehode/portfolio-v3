@@ -63,7 +63,8 @@ const projectsData = {
       showJs: false,
       showReact: false,
       showFigma: true,
-      githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
+      githubLink:
+        "https://www.figma.com/proto/eLdqwlfPTyqh226WpXQGSw/CHILLIX-STREAMING?page-id=53%3A268&type=design&node-id=74-935&viewport=399%2C398%2C0.04&t=3Avu3zdnJIK0LFrB-1&scaling=scale-down&starting-point-node-id=74%3A935&mode=design",
     },
   ],
 };
