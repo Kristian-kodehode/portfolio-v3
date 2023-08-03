@@ -31,7 +31,7 @@ const projectsData = {
       img: "images/Donut-color.png",
       heading: "App : Donut Color",
       description:
-        "Generate wonderful colors by rotating this donut. Store the colors in circles which you then can click to copy HEX code to clipboard for further use.",
+        "Generate wonderful colors by rotating this donut. Store the colors in circles which you then can click to copy HEX code to clipboard for further use. A fun and original concept.",
       showHtml: true,
       showCss: true,
       showJs: true,
