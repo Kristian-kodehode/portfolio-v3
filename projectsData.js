@@ -10,7 +10,7 @@ const projectsData = {
       showCss: true,
       showJs: true,
       showReact: true,
-      showFigma: true,
+      showFigma: false,
       githubLink: "https://kristian-kodehode.github.io/react-tictactoe/",
     },
     {
@@ -22,8 +22,8 @@ const projectsData = {
       showHtml: true,
       showCss: true,
       showJs: true,
-      showReact: true,
-      showFigma: true,
+      showReact: false,
+      showFigma: false,
       githubLink: "https://kristian-kodehode.github.io/game-snake/",
     },
     {
@@ -35,8 +35,8 @@ const projectsData = {
       showHtml: true,
       showCss: true,
       showJs: true,
-      showReact: true,
-      showFigma: true,
+      showReact: false,
+      showFigma: false,
       githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {

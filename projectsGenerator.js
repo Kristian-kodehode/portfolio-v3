@@ -1,35 +1,37 @@
-// Add all your JavaScript code inside this event listener
 import { projectsData } from "./projectsData.js";
+const uiCardsContainer = document.getElementById("ui-cards-container");
 document.addEventListener("DOMContentLoaded", function () {
-  // Function to create project cards
+  // Create UI Card
   function createProjectCard(project) {
     const card = document.createElement("div");
     card.classList.add("ui-card");
 
+    // Create Image
     const img = document.createElement("img");
     img.classList.add("ui-card-image");
     img.src = project.img;
     img.alt = "project image";
     card.appendChild(img);
 
+    // Create Text Container
     const textContainer = document.createElement("div");
     textContainer.classList.add("ui-card-text-container");
     card.appendChild(textContainer);
-
+    // Create Heading
     const heading = document.createElement("h3");
     heading.classList.add("ui-card-heading");
     heading.textContent = project.heading;
     textContainer.appendChild(heading);
-
+    // Create Description
     const description = document.createElement("p");
     description.classList.add("ui-card-paragraph");
     description.textContent = project.description;
     textContainer.appendChild(description);
-
+    // Create Icons Container
     const icons = document.createElement("span");
     icons.classList.add("ui-card-icons");
     textContainer.appendChild(icons);
-
+    // Create Icons based on Boolean true / false in data
     if (project.showHtml) {
       const htmlIcon = document.createElement("i");
       htmlIcon.classList.add("ui-icon", "fa-brands", "fa-html5");
@@ -65,18 +67,19 @@ document.addEventListener("DOMContentLoaded", function () {
       icons.appendChild(figmaIcon);
     }
 
+    // Create Button Container
     const buttonsContainer = document.createElement("div");
     buttonsContainer.classList.add("ui-card-buttons-container");
     textContainer.appendChild(buttonsContainer);
-
+    // Create A-tag
     const link = document.createElement("a");
     link.href = project.githubLink;
     link.target = "_blank";
-
+    // Create Button inside a-tag
     const button = document.createElement("button");
     button.classList.add("ui-card-button");
     link.appendChild(button);
-
+    // Create class and text inside button
     const githubIcon = document.createElement("i");
     githubIcon.classList.add(
       "custom-hover-icon",
@@ -85,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
       "svg-items"
     );
     button.appendChild(githubIcon);
-
     const buttonText = document.createTextNode("Experience Project");
     button.appendChild(buttonText);
 
@@ -93,9 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     return card;
   }
-
-  // Get the container where the project cards will be displayed
-  const uiCardsContainer = document.getElementById("ui-cards-container");
 
   // Check if the container exists and the projectsData object is available
   if (uiCardsContainer && projectsData && projectsData.projects) {

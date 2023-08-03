@@ -260,19 +260,17 @@ Easier to navigate
 .ui-card-text-container {
   padding: 16px;
 }
-.ui-card-text-container > h3 {
+.ui-card-heading {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 1.1px;
 }
-.ui-card-text-container > p {
+.ui-card-paragraph {
   padding: 4px 0px 12px 0px;
   font-weight: 300;
   line-height: 1.4;
-  font-size: 14px;
-}
-.ui-card-paragraph {
   height: 80px;
+  font-size: 16px;
 }
 .ui-card-icons {
   align-items: center;
