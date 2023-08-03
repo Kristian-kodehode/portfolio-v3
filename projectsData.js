@@ -28,6 +28,19 @@ const projectsData = {
     },
     {
       id: 3,
+      img: "images/Donut-color.png",
+      heading: "App : Donut Color",
+      description:
+        "Generate wonderful colors by rotating this donut. Store the colors in circles which you then can click to copy HEX code to clipboard for further use.",
+      showHtml: true,
+      showCss: true,
+      showJs: true,
+      showReact: false,
+      showFigma: false,
+      githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
+    },
+    {
+      id: 4,
       img: "images/stopwatch.png",
       heading: "App : Stopwatch",
       description:
@@ -40,7 +53,7 @@ const projectsData = {
       githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
-      id: 4,
+      id: 5,
       img: "images/IncrediBuy.jpg",
       heading: "Design : Incredibuy",
       description:
@@ -53,7 +66,7 @@ const projectsData = {
       githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
-      id: 5,
+      id: 6,
       img: "images/ChillixHome.jpg",
       heading: "Design : Chillix",
       description:
