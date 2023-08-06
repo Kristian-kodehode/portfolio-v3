@@ -37,7 +37,8 @@ const projectsData = {
       showJs: true,
       showReact: false,
       showFigma: false,
-      githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
+      githubLink:
+        "https://64cfa4a4be3d0c49430eb478--rad-gumdrop-b595c7.netlify.app/",
     },
     {
       id: 4,
