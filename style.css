@@ -335,6 +335,7 @@ Easier to navigate
 }
 .contact-me-icons {
   padding-top: 16px;
+  padding-bottom: 120px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
@@ -342,7 +343,7 @@ Easier to navigate
 .contact-icons-div {
   text-align: center;
   background-color: var(--col-secondary80);
-  padding: 2em 2em 6em;
+  padding: 2em 2em 5em;
   scale: (1);
   transition: 0.05s;
 }
