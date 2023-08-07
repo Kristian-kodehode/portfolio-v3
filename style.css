@@ -484,9 +484,7 @@ Easier to navigate
   }
   .contact-me-icons {
     padding-top: 16px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
   }
   .icon-hover-size {
     font-size: 32px;
