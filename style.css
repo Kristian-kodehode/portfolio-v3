@@ -348,21 +348,22 @@ Easier to navigate
   background-color: var(--col-secondary80);
   padding: 2em 2em 5em;
   scale: (1);
-  transition: 0.05s;
+  transition: 0.07s;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 .contact-icons-div:hover {
   transform: scale(0.95);
+  box-shadow: 3px 3px 10px var(--col-secondary80);
+  border: 1px solid var(--col-secondary);
 }
 .contact-me-sub {
   font-size: 10px;
   letter-spacing: 0.6px;
-  /* opacity: 0.5; */
   padding-top: 4px;
   color: var(--col-secondary);
 }
 
 .icon-hover-size {
-  /* font-size: 24px; */
   transition: 0.3s;
   opacity: 0.7;
 }
