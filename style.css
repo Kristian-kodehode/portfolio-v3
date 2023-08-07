@@ -336,7 +336,6 @@ Easier to navigate
 }
 .contact-me-icons {
   padding-top: 16px;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
@@ -359,7 +358,7 @@ Easier to navigate
 }
 
 .icon-hover-size {
-  font-size: 32px;
+  /* font-size: 24px; */
   transition: 0.5s;
   opacity: 0.7;
 }
