@@ -335,15 +335,25 @@ Easier to navigate
 }
 .contact-me-icons {
   padding-top: 16px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
+}
+.contact-icons-div {
+  text-align: center;
+  background-color: var(--col-secondary80);
+  padding: 2em 2em 6em;
+  scale: (1);
+  transition: 0.05s;
+}
+.contact-icons-div:hover {
+  transform: scale(0.95);
 }
 .contact-me-sub {
   font-size: 10px;
   opacity: 0.5;
   padding-top: 4px;
-  /* display: none; */
+  color: var(--col-secondary);
 }
 
 .icon-hover-size {
