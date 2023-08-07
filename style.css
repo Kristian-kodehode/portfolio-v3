@@ -338,6 +338,9 @@ Easier to navigate
   display: flex;
   gap: 16px;
 }
+.contact-me-sub p {
+  font-size: 10px;
+}
 
 .icon-hover-size {
   transition: 0.5s;
@@ -346,6 +349,10 @@ Easier to navigate
 .icon-hover-size:hover {
   transform: scale(1.2);
   opacity: 1;
+}
+
+.contact-icons-resize {
+  font-size: 54px;
 }
 
 /*
