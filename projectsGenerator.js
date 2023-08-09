@@ -3,12 +3,16 @@ const uiCardsContainer = document.getElementById("ui-cards-container");
 document.addEventListener("DOMContentLoaded", function () {
   // Create UI Card
   function createProjectCard(project) {
-    const card = document.createElement("div");
+    const card = document.createElement("a");
+    card.href = project.githubLink;
+    card.target = "_blank";
+
     card.classList.add("ui-card");
 
     // Create Image
     const img = document.createElement("img");
     img.classList.add("ui-card-image");
+    img.title = "Go to GitHub Repo";
     img.src = project.img;
     img.alt = "project image";
     card.appendChild(img);
@@ -73,7 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
     textContainer.appendChild(buttonsContainer);
     // Create A-tag
     const link = document.createElement("a");
-    link.href = project.githubLink;
+    link.title = "Go to Live View";
+    link.href = project.liveLink;
     link.target = "_blank";
     // Create Button inside a-tag
     const button = document.createElement("button");
@@ -81,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     link.appendChild(button);
     // Create class and text inside button
     const githubIcon = document.createElement("i");
+
     githubIcon.classList.add(
       "custom-hover-icon",
       "fa-brands",

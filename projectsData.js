@@ -11,7 +11,8 @@ const projectsData = {
       showJs: true,
       showReact: true,
       showFigma: false,
-      githubLink: "https://kristian-kodehode.github.io/react-tictactoe/",
+      githubLink: "https://github.com/Kristian-kodehode/react-tictactoe",
+      liveLink: "https://kristian-kodehode.github.io/react-tictactoe/",
     },
     {
       id: 2,
@@ -24,7 +25,8 @@ const projectsData = {
       showJs: true,
       showReact: false,
       showFigma: false,
-      githubLink: "https://kristian-kodehode.github.io/game-snake/",
+      githubLink: "https://github.com/Kristian-kodehode/game-snake",
+      liveLink: "https://kristian-kodehode.github.io/game-snake/",
     },
     {
       id: 3,
@@ -37,7 +39,8 @@ const projectsData = {
       showJs: true,
       showReact: false,
       showFigma: false,
-      githubLink:
+      githubLink: "https://github.com/Kristian-kodehode/color-donut",
+      liveLink:
         "https://64cfa4a4be3d0c49430eb478--rad-gumdrop-b595c7.netlify.app/",
     },
     {
@@ -51,7 +54,8 @@ const projectsData = {
       showJs: true,
       showReact: false,
       showFigma: false,
-      githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
+      githubLink: "https://github.com/Kristian-kodehode/02_Stopwatch",
+      liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
       id: 5,
@@ -64,7 +68,8 @@ const projectsData = {
       showJs: false,
       showReact: false,
       showFigma: true,
-      githubLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
+      githubLink: "",
+      liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
       id: 6,
@@ -77,7 +82,8 @@ const projectsData = {
       showJs: false,
       showReact: false,
       showFigma: true,
-      githubLink:
+      githubLink: "",
+      liveLink:
         "https://www.figma.com/proto/eLdqwlfPTyqh226WpXQGSw/CHILLIX-STREAMING?page-id=53%3A268&type=design&node-id=74-935&viewport=399%2C398%2C0.04&t=3Avu3zdnJIK0LFrB-1&scaling=scale-down&starting-point-node-id=74%3A935&mode=design",
     },
   ],

@@ -293,16 +293,19 @@ Easier to navigate
   box-shadow: -1px -1px 4px #55b6cc, 5px 6px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
-/* .ui-card:hover {
-  border: 1px solid var(--col-secondary80);
-} */
+.ui-cards-container a {
+  list-style: none;
+  cursor: default;
+}
 .ui-card-image {
   height: 345px;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .ui-card-text-container {
   padding: 16px;
+  color: var(--col-secondary);
 }
 .ui-card-heading {
   text-transform: uppercase;
