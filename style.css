@@ -183,14 +183,15 @@ Easier to navigate
 
   background-color: var(--col-secondary80);
   color: var(--col-secondary);
+  border: 1px solid var(--col-secondary);
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
-  top: 110%;
+  z-index: 10;
+  top: 100%;
   left: 50%;
   margin-left: -60px;
 }
