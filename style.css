@@ -173,13 +173,16 @@ Easier to navigate
   position: relative;
   display: inline-block;
 }
-
+.tooltiptext {
+  font-size: 14px;
+  cursor: pointer;
+}
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
 
-  background-color: black;
-  color: #fff;
+  background-color: var(--col-secondary80);
+  color: var(--col-secondary);
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -187,7 +190,7 @@ Easier to navigate
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 100%;
+  top: 110%;
   left: 50%;
   margin-left: -60px;
 }
@@ -512,10 +515,11 @@ Easier to navigate
   .svg-items {
     font-size: 26px;
   }
-  .introduction p {
+  .intro-parapgraph {
     width: 70%;
     font-size: 18px;
   }
+
   .skills-icons {
     gap: 0.5em;
     font-size: 40px;
