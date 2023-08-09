@@ -45,6 +45,20 @@ const projectsData = {
     },
     {
       id: 4,
+      img: "images/calculator-react.png",
+      heading: "App : Calculator",
+      description:
+        "Project task given over the summer to create a functional calculator in React. I do like a challenge, and this was one of them.",
+      showHtml: true,
+      showCss: true,
+      showJs: true,
+      showReact: true,
+      showFigma: true,
+      githubLink: "https://github.com/Kristian-kodehode/calculator-v3",
+      liveLink: "https://kristian-kodehode.github.io/calculator-v3/",
+    },
+    {
+      id: 5,
       img: "images/stopwatch.png",
       heading: "App : Stopwatch",
       description:
@@ -58,7 +72,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
-      id: 5,
+      id: 6,
       img: "images/IncrediBuy.jpg",
       heading: "Design : Incredibuy",
       description:
@@ -72,7 +86,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
-      id: 6,
+      id: 7,
       img: "images/ChillixHome.jpg",
       heading: "Design : Chillix",
       description:
