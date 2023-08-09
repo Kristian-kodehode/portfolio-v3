@@ -190,6 +190,10 @@ Easier to navigate
   font-size: 24px;
   z-index: -1;
 }
+.skills-icons > img {
+  width: 40px;
+  color: var(--col-secondary80);
+}
 .skills-icons .custom-icon {
   animation: rotate 10s linear infinite;
 }
