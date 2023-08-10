@@ -327,6 +327,7 @@ Easier to navigate
   padding: 4px 0px 12px 0px;
   font-weight: 300;
   line-height: 1.4;
+  /* letter-spacing: 0.8px; */
   height: 80px;
   font-size: 16px;
 }
