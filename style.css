@@ -52,6 +52,24 @@ p {
 a {
   text-decoration: none;
 }
+button {
+  /* border: 1px solid rgba(255, 255, 255, 0); */
+  /* border: none; */
+  border: 1px solid var(--col-secondary);
+  background-color: var(--col-primary);
+  color: var(--col-secondary);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: var(--col-secondary80);
+}
 .mylogo {
   background-color: var(--col-secondary);
   color: #3a7d8c;
@@ -143,19 +161,40 @@ nav {
 /* THEME SELECTOR */
 .theme-dropdown {
   font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: repeat(3, 1fr); */
+
+  align-items: center;
+
+  /* border: 1px solid black; */
+  padding-right: 16px;
 }
 
 .theme-hidden {
   color: var(--col-secondary);
   background-color: var(--col-primary);
-  border: none;
   border-radius: 4px;
   padding: 4px;
   cursor: pointer;
+  display: none;
+  width: 0%;
 }
 
-.theme-hidden {
-  outline: none;
+.theme-buttons {
+  font-size: 24px;
+  font-weight: 400;
+  background-color: none;
+  color: var(--col-secondary);
+  /* border: 1px solid black; */
+  border: none;
+  margin-top: 0px;
+  width: 0%;
+  padding: 4px;
+}
+.theme-buttons:hover {
+  background-color: none;
+  color: var(--col-secondary80);
 }
 
 /*
@@ -257,25 +296,6 @@ Easier to navigate
   to {
     transform: rotate(360deg);
   }
-}
-
-button {
-  /* border: 1px solid rgba(255, 255, 255, 0); */
-  /* border: none; */
-  border: 1px solid var(--col-secondary);
-  background-color: var(--col-primary);
-  color: var(--col-secondary);
-  font-size: 14px;
-  font-weight: 700;
-  border-radius: 4px;
-  padding: 12px;
-  width: 100%;
-  cursor: pointer;
-  margin-top: 16px;
-  transition: 0.4s;
-}
-button:hover {
-  background-color: var(--col-secondary80);
 }
 
 /*
