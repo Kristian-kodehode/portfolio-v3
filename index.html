@@ -11,6 +11,7 @@
     />
     <script type="module" src="projectsData.js"></script>
     <script type="module" src="projectsGenerator.js"></script>
+    <script type="module" src="colorThemeAndMenu.js"></script>
     <script
       type="module"
       src="https://kit.fontawesome.com/c873273b0e.js"
@@ -30,15 +31,15 @@
         >
           <i class="fa-solid fa-envelope circle-mail-icon"></i>
         </a>
-        <!-- <img class="mylogo" src="misc/klogo.svg" alt="" /> -->
-        <div class="theme-dropdown">
-          <!-- <select id="themeSelect" class="theme-hidden">
-            <option value="0">Blue</option>
-            <option value="1">Dark</option>
-            <option value="2">Light</option>
-            <option value="3">Bizz</option>
-          </select> -->
-        </div>
+        <!-- BURGER MENU FOR THEME SWITCHING -->
+        <div class="menu-icon" id="menuIcon">&#9776;</div>
+      </div>
+    </nav>
+
+    <div class="page-content-container">
+      <!-- THEME BUTTONS AND OVERLAY -->
+      <div class="overlay" id="overlay"></div>
+      <div class="theme-menu" id="themeMenu">
         <div class="theme-radios">
           <input type="radio" id="theme0" name="theme" value="0" checked />
           <label for="theme0">Blue Theme</label>
@@ -53,9 +54,6 @@
           <label for="theme3">Bizz Theme</label>
         </div>
       </div>
-    </nav>
-
-    <div class="page-content-container">
       <section id="introduction" class="introduction">
         <h1>
           Welcome <span style="font-weight: 100">to the</span> <br />
