@@ -65,12 +65,20 @@ document.addEventListener("DOMContentLoaded", function () {
       icons.appendChild(reactIcon);
     }
 
+    if (project.showRouter) {
+      const routerIcon = document.getElementById("i");
+      const iconifyIconRouter = document.createElement("iconify-icon");
+      iconifyIconRouter.setAttribute("icon", "simple-icons:reactrouter");
+      iconifyIconRouter.classList.add("ui-icon");
+      icons.appendChild(iconifyIconRouter);
+    }
+
     if (project.showThree) {
-      const threeIcon = document.getElementById("i"); // Replace "icons" with the actual ID of your container element
-      const iconifyIcon = document.createElement("iconify-icon");
-      iconifyIcon.setAttribute("icon", "simple-icons:threedotjs");
-      iconifyIcon.classList.add("ui-icon");
-      icons.appendChild(iconifyIcon);
+      const threeIcon = document.getElementById("i");
+      const iconifyIconThree = document.createElement("iconify-icon");
+      iconifyIconThree.setAttribute("icon", "simple-icons:threedotjs");
+      iconifyIconThree.classList.add("ui-icon");
+      icons.appendChild(iconifyIconThree);
     }
 
     if (project.showFigma) {
