@@ -100,6 +100,21 @@ const projectsData = {
       liveLink:
         "https://www.figma.com/proto/eLdqwlfPTyqh226WpXQGSw/CHILLIX-STREAMING?page-id=53%3A268&type=design&node-id=74-935&viewport=399%2C398%2C0.04&t=3Avu3zdnJIK0LFrB-1&scaling=scale-down&starting-point-node-id=74%3A935&mode=design",
     },
+    {
+      id: 8,
+      img: "images/routertutorial.png",
+      heading: "Tutorial : Router",
+      description:
+        "I like to do the tutorials from the different libraries, and Router was a good challenge to follow along to and get to work 100%.",
+      showHtml: true,
+      showCss: true,
+      showJs: true,
+      showReact: true,
+      showFigma: false,
+      githubLink: "",
+      liveLink:
+        "https://www.figma.com/proto/eLdqwlfPTyqh226WpXQGSw/CHILLIX-STREAMING?page-id=53%3A268&type=design&node-id=74-935&viewport=399%2C398%2C0.04&t=3Avu3zdnJIK0LFrB-1&scaling=scale-down&starting-point-node-id=74%3A935&mode=design",
+    },
   ],
 };
 
