@@ -142,25 +142,20 @@ nav {
 
 /* THEME SELECTOR */
 .theme-dropdown {
-  /* position: relative; */
-  /* border: none; */
   font-size: 24px;
 }
 
 .theme-hidden {
   color: var(--col-secondary);
   background-color: var(--col-primary);
-  /* border: 1px solid var(--col-secondary); */
   border: none;
   border-radius: 4px;
   padding: 4px;
   cursor: pointer;
 }
-#themeSelect:focus {
+
+.theme-hidden {
   outline: none;
-}
-option {
-  /* color: aqua; */
 }
 
 /*
