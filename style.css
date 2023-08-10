@@ -244,23 +244,21 @@ Easier to navigate
 }
 
 button {
-  border: 1px solid rgba(255, 255, 255, 0);
+  /* border: 1px solid rgba(255, 255, 255, 0); */
   /* border: none; */
-  /* border: 1px solid var(--col-secondary); */
+  border: 1px solid var(--col-secondary);
   background-color: var(--col-primary);
   color: var(--col-secondary);
   font-size: 14px;
   font-weight: 700;
-  /* border-radius: 4px; */
+  border-radius: 4px;
   padding: 12px;
   width: 100%;
   cursor: pointer;
   margin-top: 16px;
-  transition: 1s;
+  transition: 0.4s;
 }
 button:hover {
-  /* border: none; */
-  border: 1px solid var(--col-secondary);
   background-color: var(--col-secondary80);
 }
 
@@ -369,7 +367,7 @@ button:hover .custom-hover-icon {
 .ui-card-buttons-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* gap: 8px; */
+  gap: 8px;
   width: 100%;
 }
 
