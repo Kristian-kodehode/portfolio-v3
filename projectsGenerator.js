@@ -65,6 +65,14 @@ document.addEventListener("DOMContentLoaded", function () {
       icons.appendChild(reactIcon);
     }
 
+    if (project.showThree) {
+      const threeIcon = document.getElementById("i"); // Replace "icons" with the actual ID of your container element
+      const iconifyIcon = document.createElement("iconify-icon");
+      iconifyIcon.setAttribute("icon", "simple-icons:threedotjs");
+      iconifyIcon.classList.add("ui-icon");
+      icons.appendChild(iconifyIcon);
+    }
+
     if (project.showFigma) {
       const figmaIcon = document.createElement("i");
       figmaIcon.classList.add("ui-icon", "fa-brands", "fa-figma");
