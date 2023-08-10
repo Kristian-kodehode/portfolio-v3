@@ -202,11 +202,13 @@ Easier to navigate
   visibility: visible;
 }
 .tooltiptext:hover {
-  transition: 1s ease-out;
+  transition: 1s ease-in-out;
   letter-spacing: 2px;
   font-weight: 700;
   background-color: var(--col-secondary);
   color: var(--col-primary);
+  outline: dashed 1px var(--col-secondary);
+  outline-offset: 4px;
 }
 
 .icons {
