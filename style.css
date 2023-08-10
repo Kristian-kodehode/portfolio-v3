@@ -194,9 +194,20 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
-.theme-radios input {
-  width: 40px;
+.theme-switches {
+  font-size: 40px;
+  font-weight: 700;
 }
+.theme-switches input {
+  display: none;
+}
+.theme-switches label:hover {
+  color: var(--col-secondary80);
+  cursor: pointer;
+}
+
+/* .theme-switches {
+} */
 
 /* Class to toggle menu expansion */
 .expanded {
