@@ -68,7 +68,7 @@ button {
   transition: 0.4s;
 }
 button:hover {
-  /* background-color: var(--col-secondary80); */
+  background-color: var(--col-secondary80);
 }
 .mylogo {
   background-color: var(--col-secondary);
@@ -164,6 +164,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   /* border: 1px solid black; */
   padding-right: 16px;
 }
@@ -185,12 +186,14 @@ nav {
   color: var(--col-secondary);
   border: none;
   margin-top: 0px;
-  width: 0%;
-  padding-right: 16px;
+  margin: 0;
+  padding-left: 56px;
+  width: 24px;
+  /* padding-right: 16px; */
   transition: 0s;
 }
 .theme-buttons:hover {
-  background-color: none;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /*
