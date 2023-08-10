@@ -177,6 +177,7 @@ Easier to navigate
 .tooltiptext {
   font-size: 14px;
   cursor: pointer;
+  /* overflow: hidden; */
 }
 .tooltip .tooltiptext {
   visibility: hidden;
@@ -199,6 +200,13 @@ Easier to navigate
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+.tooltiptext:hover {
+  transition: 1s ease-out;
+  letter-spacing: 2px;
+  font-weight: 700;
+  background-color: var(--col-secondary);
+  color: var(--col-primary);
 }
 
 .icons {
