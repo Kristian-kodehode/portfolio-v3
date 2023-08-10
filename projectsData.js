@@ -11,7 +11,7 @@ const projectsData = {
       showJs: true,
       showReact: true,
       showRouter: false,
-      showThree: true,
+      showThree: false,
       showFigma: false,
       githubLink: "https://github.com/Kristian-kodehode/react-tictactoe",
       liveLink: "https://kristian-kodehode.github.io/react-tictactoe/",
