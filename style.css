@@ -52,6 +52,11 @@ p {
 a {
   text-decoration: none;
 }
+.mylogo {
+  background-color: var(--col-secondary);
+  color: #3a7d8c;
+  border-radius: 4px;
+}
 
 /*
 Added empty space to keep it more organized
