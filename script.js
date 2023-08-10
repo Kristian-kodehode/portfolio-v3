@@ -1,58 +1,56 @@
-const themeSelect = document.getElementById("themeSelect");
-const prevThemeButton = document.getElementById("prevTheme");
-const nextThemeButton = document.getElementById("nextTheme");
-let colorThemes = []; // Store your color themes here
+const themeRadios = document.querySelectorAll(
+  '.theme-radios input[type="radio"]'
+);
+let colorThemes = []; // Initialize the colorThemes variable
 let currentThemeIndex = 0;
 
 // Fetch color themes from the JSON data
 const fetchColorThemes = async () => {
   try {
-    // Replace the URL with the correct path to your JSON file
     const response = await fetch("color-themes.json");
     colorThemes = await response.json();
-    changeColors(); // Apply default theme
+    applyTheme(currentThemeIndex); // Apply default theme after fetching
   } catch (error) {
     console.log("Error fetching color themes:", error);
   }
 };
 
-// Handle previous theme button click
-prevThemeButton.addEventListener("click", () => {
-  if (currentThemeIndex > 0) {
-    currentThemeIndex -= 1;
-    changeColors();
-  }
-});
+// Apply the selected theme based on the radio button's value
+const applyThemeFromRadio = () => {
+  const selectedThemeIndex = parseInt(
+    document.querySelector('.theme-radios input[type="radio"]:checked').value
+  );
+  applyTheme(selectedThemeIndex);
+};
 
-// Handle next theme button click
-nextThemeButton.addEventListener("click", () => {
-  if (currentThemeIndex < colorThemes.length - 1) {
-    currentThemeIndex += 1;
-    changeColors();
-  }
-});
+// Apply the selected theme
+const applyTheme = (themeIndex) => {
+  const selectedTheme = colorThemes[themeIndex];
 
-// Function to apply the selected theme
-const changeColors = () => {
-  const currentTheme = colorThemes[currentThemeIndex];
-  // Set CSS variables using currentTheme values
   document.documentElement.style.setProperty(
     "--col-primary",
-    currentTheme["col-primary"]
+    selectedTheme["col-primary"]
   );
   document.documentElement.style.setProperty(
     "--col-primary80",
-    currentTheme["col-primary80"]
+    selectedTheme["col-primary80"]
   );
   document.documentElement.style.setProperty(
     "--col-secondary",
-    currentTheme["col-secondary"]
+    selectedTheme["col-secondary"]
   );
   document.documentElement.style.setProperty(
     "--col-secondary80",
-    currentTheme["col-secondary80"]
+    selectedTheme["col-secondary80"]
   );
+
+  currentThemeIndex = themeIndex;
 };
+
+// Attach change event listeners to radio buttons
+themeRadios.forEach((radio) => {
+  radio.addEventListener("change", applyThemeFromRadio);
+});
 
 fetchColorThemes();
 
