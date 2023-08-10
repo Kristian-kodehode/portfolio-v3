@@ -68,7 +68,7 @@ button {
   transition: 0.4s;
 }
 button:hover {
-  background-color: var(--col-secondary80);
+  /* background-color: var(--col-secondary80); */
 }
 .mylogo {
   background-color: var(--col-secondary);
@@ -186,15 +186,14 @@ nav {
   font-weight: 400;
   background-color: none;
   color: var(--col-secondary);
-  /* border: 1px solid black; */
   border: none;
   margin-top: 0px;
   width: 0%;
-  padding: 4px;
+  padding-right: 16px;
+  transition: 0s;
 }
 .theme-buttons:hover {
   background-color: none;
-  color: var(--col-secondary80);
 }
 
 /*
