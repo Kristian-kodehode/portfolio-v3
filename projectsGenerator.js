@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Create UI Card
   function createProjectCard(project) {
     const card = document.createElement("a");
-    card.href = project.githubLink;
+    card.href = project.liveLink;
     card.target = "_blank";
 
     card.classList.add("ui-card");
@@ -75,15 +75,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const buttonsContainer = document.createElement("div");
     buttonsContainer.classList.add("ui-card-buttons-container");
     textContainer.appendChild(buttonsContainer);
-    // Create A-tag
-    const link = document.createElement("a");
-    link.title = "Go to Live View";
-    link.href = project.liveLink;
-    link.target = "_blank";
+
+    // Create Button - Github Repo
+    const linkGithub = document.createElement("a");
+    linkGithub.title = "Go to Live View";
+    linkGithub.href = project.githubLink;
+    linkGithub.target = "_blank";
     // Create Button inside a-tag
     const button = document.createElement("button");
     button.classList.add("ui-card-button");
-    link.appendChild(button);
+    linkGithub.appendChild(button);
     // Create class and text inside button
     const githubIcon = document.createElement("i");
 
@@ -94,10 +95,35 @@ document.addEventListener("DOMContentLoaded", function () {
       "svg-items"
     );
     button.appendChild(githubIcon);
-    const buttonText = document.createTextNode("Experience Project");
+    const buttonText = document.createTextNode("GitHub Repo");
     button.appendChild(buttonText);
 
-    buttonsContainer.appendChild(link);
+    //////////////////////////
+    //Create Button 2 - Live View
+    const linkLive = document.createElement("a");
+    linkLive.title = "Go to Live View";
+    linkLive.href = project.liveLink;
+    linkLive.target = "_blank";
+
+    // Create Button inside a-tag
+    const button2 = document.createElement("button");
+    button2.classList.add("ui-card-button");
+    linkLive.appendChild(button2);
+
+    // Create class and text inside button
+    const liveIcon = document.createElement("i");
+    liveIcon.classList.add(
+      "custom-hover-icon",
+      "fa-solid",
+      "fa-globe",
+      "svg-items"
+    );
+    button2.appendChild(liveIcon);
+    const button2Text = document.createTextNode("Live View");
+    button2.appendChild(button2Text);
+
+    buttonsContainer.appendChild(linkGithub);
+    buttonsContainer.appendChild(linkLive);
 
     return card;
   }
