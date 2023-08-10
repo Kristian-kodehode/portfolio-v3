@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Create Image
     const img = document.createElement("img");
     img.classList.add("ui-card-image");
-    img.title = "Go to GitHub Repo";
+    img.title = "Click to Live View";
     img.src = project.img;
     img.alt = "project image";
     card.appendChild(img);
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Create Button - Github Repo
     const linkGithub = document.createElement("a");
-    linkGithub.title = "Go to Live View";
+    linkGithub.title = "Click to GitHub Repo";
     linkGithub.href = project.githubLink;
     linkGithub.target = "_blank";
     // Create Button inside a-tag
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //////////////////////////
     //Create Button 2 - Live View
     const linkLive = document.createElement("a");
-    linkLive.title = "Go to Live View";
+    linkLive.title = "Click to Live View";
     linkLive.href = project.liveLink;
     linkLive.target = "_blank";
 
