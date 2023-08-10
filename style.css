@@ -193,6 +193,16 @@ nav {
   transform: translateY(100%); /* Initially hidden below the viewport */
 }
 
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: 1s;
+}
+.menu-icon:hover {
+  transform: scale(0.9);
+  rotate: -90deg;
+}
+
 /* Class to toggle menu expansion */
 .theme-menu.expanded {
   transform: translateY(0); /* Show the menu by setting translateY to 0 */
@@ -228,9 +238,15 @@ nav {
 .theme-switches input {
   display: none;
 }
+.theme-switches label {
+  transition: 0.7s;
+}
 .theme-switches label:hover {
   color: var(--col-secondary80);
   cursor: pointer;
+}
+.theme-switches:focus {
+  color: var(--col-secondary80);
 }
 
 /* .theme-switches {
