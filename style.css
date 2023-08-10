@@ -160,6 +160,7 @@ nav {
 
 /* THEME SELECTOR */
 /* Overlay style */
+/* Overlay style */
 .overlay {
   position: fixed;
   top: 0;
@@ -177,18 +178,38 @@ nav {
 /* Theme menu container */
 .theme-menu {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: var(--col-primary80);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 4px 4px 20px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   display: none;
+  transform: translateY(100%); /* Initially hidden below the viewport */
+}
+
+/* Class to toggle menu expansion */
+.theme-menu.expanded {
+  transform: translateY(0); /* Show the menu by setting translateY to 0 */
+}
+
+/* Toggle the overlay and expanded menu on hover */
+.theme-menu:hover + .overlay,
+.overlay:hover {
+  display: block;
+}
+
+/* Hide the overlay and contracted menu when not expanded */
+.overlay:not(:hover) {
+  display: none;
+}
+
+.theme-menu:not(.expanded) {
+  transform: translateY(100%); /* Hide the menu by setting translateY to 100% */
 }
 
 .theme-radios {
