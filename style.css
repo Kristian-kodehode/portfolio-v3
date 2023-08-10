@@ -332,10 +332,15 @@ Easier to navigate
   font-size: 16px;
 }
 .ui-card-icons {
-  align-items: center;
+  align-items: flex-end;
+  display: flex;
 }
 .ui-card-icons .custom2-icon {
   animation: rotate2 10s linear infinite;
+}
+
+.iconifystyle {
+  /* border: 1px solid black; */
 }
 @keyframes rotate2 {
   from {

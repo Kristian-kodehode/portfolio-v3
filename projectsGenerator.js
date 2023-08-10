@@ -66,19 +66,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (project.showRouter) {
-      const routerIcon = document.getElementById("i");
-      const iconifyIconRouter = document.createElement("iconify-icon");
-      iconifyIconRouter.setAttribute("icon", "simple-icons:reactrouter");
-      iconifyIconRouter.classList.add("ui-icon");
-      icons.appendChild(iconifyIconRouter);
+      // const routerIcon = document.getElementById("i");
+      const routerIcon = document.createElement("iconify-icon");
+      routerIcon.setAttribute("icon", "simple-icons:reactrouter");
+      routerIcon.classList.add("ui-icon");
+      icons.appendChild(routerIcon);
     }
 
     if (project.showThree) {
-      const threeIcon = document.getElementById("i");
-      const iconifyIconThree = document.createElement("iconify-icon");
-      iconifyIconThree.setAttribute("icon", "simple-icons:threedotjs");
-      iconifyIconThree.classList.add("ui-icon");
-      icons.appendChild(iconifyIconThree);
+      // const threeIcon = document.getElementById("i");
+      const threeIcon = document.createElement("iconify-icon");
+      threeIcon.setAttribute("icon", "simple-icons:threedotjs");
+      threeIcon.classList.add("ui-icon", "ui-card-icons", "iconifystyle");
+      icons.appendChild(threeIcon);
     }
 
     if (project.showFigma) {
