@@ -83,10 +83,26 @@ const projectsData = {
     },
     {
       id: 6,
-      img: "images/IncrediBuy.jpg",
-      heading: "Design : Incredibuy",
+      img: "images/qrgenerator.png",
+      heading: "App : QR Generator",
       description:
-        "Yet another classic project, the stopwatch. For the style concious person that loves to even have the stopwatch look good.",
+        "Fun little app that generates QR code from URLs. First time using an API which was a lot of fun.",
+      showHtml: true,
+      showCss: true,
+      showJs: true,
+      showReact: false,
+      showRouter: false,
+      showThree: false,
+      showFigma: true,
+      githubLink: "https://github.com/Kristian-kodehode/04_QRCodeGenerator",
+      liveLink: "https://kristian-kodehode.github.io/04_QRCodeGenerator/",
+    },
+    {
+      id: 7,
+      img: "images/saturnproject.png",
+      heading: "Webpage : Saturn",
+      description:
+        "Group project with Mohammad in class. Task: to create a site about Saturn. Great experience and collaboration. Html and Css only.",
       showHtml: true,
       showCss: true,
       showJs: false,
@@ -94,25 +110,10 @@ const projectsData = {
       showRouter: false,
       showThree: false,
       showFigma: true,
-      githubLink: "",
-      liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
-    },
-    {
-      id: 7,
-      img: "images/ChillixHome.jpg",
-      heading: "Design : Chillix",
-      description:
-        "Design project where the assignment was to create a fictional streaming service. Should work as a sample, not 100% full prototype.",
-      showHtml: false,
-      showCss: false,
-      showJs: false,
-      showReact: false,
-      showRouter: false,
-      showThree: false,
-      showFigma: true,
-      githubLink: "",
+      githubLink:
+        "https://github.com/Kristian-kodehode/005-Gruppeprosjekt-Saturn-Mokhammad-Kristian",
       liveLink:
-        "https://www.figma.com/proto/eLdqwlfPTyqh226WpXQGSw/CHILLIX-STREAMING?page-id=53%3A268&type=design&node-id=74-935&viewport=399%2C398%2C0.04&t=3Avu3zdnJIK0LFrB-1&scaling=scale-down&starting-point-node-id=74%3A935&mode=design",
+        "https://kristian-kodehode.github.io/005-Gruppeprosjekt-Saturn-Mokhammad-Kristian/",
     },
     {
       id: 8,
