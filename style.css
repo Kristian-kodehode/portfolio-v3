@@ -489,6 +489,10 @@ Easier to navigate
 
 
 */
+.about-me-paragraph {
+  max-width: 780px;
+}
+
 /*MISC ICON STYLINGS*/
 .contact-me {
   margin: 40px 0px;
