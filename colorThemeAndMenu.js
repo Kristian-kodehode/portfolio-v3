@@ -76,6 +76,10 @@ const applyTheme = (themeIndex) => {
     "--col-secondary80",
     selectedTheme["col-secondary80"]
   );
+  document.documentElement.style.setProperty(
+    "--col-shadow",
+    selectedTheme["col-shadow"]
+  );
 
   currentThemeIndex = themeIndex;
 };
