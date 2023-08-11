@@ -24,6 +24,11 @@ overlay.addEventListener("click", () => {
   themeMenu.classList.remove("expanded");
   overlay.style.display = "none";
 });
+//UPDATED
+overlay.addEventListener("touchstart", () => {
+  themeMenu.classList.remove("expanded");
+  overlay.style.display = "none";
+});
 
 //
 
