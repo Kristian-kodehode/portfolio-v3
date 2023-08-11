@@ -18,22 +18,6 @@ const projectsData = {
     },
     {
       id: 2,
-      img: "images/snake.png",
-      heading: "Game : Snake",
-      description:
-        "The classic game, Snake with a modern look. This started out as a tutorial and i expanded it quite alot from there.",
-      showHtml: true,
-      showCss: true,
-      showJs: true,
-      showReact: false,
-      showRouter: false,
-      showThree: false,
-      showFigma: false,
-      githubLink: "https://github.com/Kristian-kodehode/game-snake",
-      liveLink: "https://kristian-kodehode.github.io/game-snake/",
-    },
-    {
-      id: 3,
       img: "images/Donut-color.png",
       heading: "App : Donut Color",
       description:
@@ -50,7 +34,7 @@ const projectsData = {
         "https://64cfa4a4be3d0c49430eb478--rad-gumdrop-b595c7.netlify.app/",
     },
     {
-      id: 4,
+      id: 3,
       img: "images/calculator-react.png",
       heading: "App : Calculator",
       description:
@@ -66,7 +50,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/calculator-v3/",
     },
     {
-      id: 5,
+      id: 4,
       img: "images/stopwatch.png",
       heading: "App : Stopwatch",
       description:
@@ -82,7 +66,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
-      id: 6,
+      id: 5,
       img: "images/qrgenerator.png",
       heading: "App : QR Generator",
       description:
@@ -98,7 +82,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/04_QRCodeGenerator/",
     },
     {
-      id: 7,
+      id: 6,
       img: "images/saturnproject.png",
       heading: "Webpage : Saturn",
       description:
@@ -116,7 +100,7 @@ const projectsData = {
         "https://kristian-kodehode.github.io/005-Gruppeprosjekt-Saturn-Mokhammad-Kristian/",
     },
     {
-      id: 8,
+      id: 7,
       img: "images/startjourney.png",
       heading: "Design : Sign Up Form",
       description:
