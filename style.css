@@ -175,7 +175,6 @@ nav {
 
 /* THEME SELECTOR */
 /* Overlay style */
-/* Overlay style */
 .overlay {
   position: fixed;
   top: 0;
@@ -206,7 +205,20 @@ nav {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 4px 4px 20px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   display: none;
-  transform: translateY(100%); /* Initially hidden below the viewport */
+  transform: translateY(100%);
+  /* Initially hidden below the viewport */
+}
+.inner-menu {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+.close-overlay {
+  cursor: pointer;
+  font-size: 56px;
+  align-self: flex-end;
+  justify-self: center;
+  /* margin-bottom: 24px; */
 }
 
 .menu-icon {
@@ -241,7 +253,7 @@ nav {
 
 .theme-radios {
   height: 30vh;
-  /* border: 1px solid coral; */
+
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
