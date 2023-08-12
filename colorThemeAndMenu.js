@@ -4,6 +4,7 @@ const themeRadios = document.querySelectorAll(
 const menuIcon = document.getElementById("menuIcon");
 const themeMenu = document.getElementById("themeMenu");
 const overlay = document.getElementById("overlay");
+const closeOverlay = document.getElementById("close-overlay");
 
 // Toggle the theme menu's visibility and overlay
 menuIcon.addEventListener("click", () => {
@@ -11,12 +12,13 @@ menuIcon.addEventListener("click", () => {
   overlay.style.display = "block";
 });
 
-// Close the theme menu and overlay when clicking outside
+// Close the theme menu and overlay when clicking outside window
 window.addEventListener("click", (event) => {
   if (!themeMenu.contains(event.target) && !menuIcon.contains(event.target)) {
     themeMenu.classList.remove("expanded");
     overlay.style.display = "none";
   }
+  console.log("clicked");
 });
 
 // Close the theme menu and overlay when clicking on overlay
@@ -26,6 +28,11 @@ overlay.addEventListener("click", () => {
 });
 //UPDATED
 overlay.addEventListener("touchstart", () => {
+  themeMenu.classList.remove("expanded");
+  overlay.style.display = "none";
+});
+
+closeOverlay.addEventListener("click", () => {
   themeMenu.classList.remove("expanded");
   overlay.style.display = "none";
 });
