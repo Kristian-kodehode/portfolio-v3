@@ -80,6 +80,10 @@ const applyTheme = (themeIndex) => {
     "--col-shadow",
     selectedTheme["col-shadow"]
   );
+  document.documentElement.style.setProperty(
+    "--url-image",
+    `url("${selectedTheme["url-image"]}")`
+  );
 
   currentThemeIndex = themeIndex;
 };

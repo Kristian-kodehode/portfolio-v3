@@ -9,6 +9,7 @@
   --col-secondary: hsl(56, 96%, 91%);
   --col-secondary80: hsla(56, 96%, 91%, 0.2);
   --col-shadow: #55b6cc;
+  --url-image: "";
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
@@ -22,7 +23,10 @@ html {
 }
 body {
   background-color: var(--col-primary);
+
   color: var(--col-secondary);
+
+  /* background-image: url(images/ChillixHome.jpg); */
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
@@ -34,6 +38,11 @@ section {
 .page-content-container {
   max-width: 1200px;
   margin: 0 auto;
+  background-image: var(--url-image);
+  /* background-image: url(--col-bgimage); */
+
+  /* backdrop-filter: blur(20px); */
+  /* -webkit-backdrop-filter: blur(20px); */
 }
 .section-headings {
   padding-bottom: 16px;
@@ -392,7 +401,8 @@ Easier to navigate
   min-width: 350px;
   /* background-color: var(--col-primary); */
   background-color: var(--col-primary80);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   border-radius: 8px;
   box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
