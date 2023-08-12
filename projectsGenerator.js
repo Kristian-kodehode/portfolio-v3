@@ -21,20 +21,24 @@ document.addEventListener("DOMContentLoaded", function () {
     const textContainer = document.createElement("div");
     textContainer.classList.add("ui-card-text-container");
     card.appendChild(textContainer);
+
     // Create Heading
     const heading = document.createElement("h3");
     heading.classList.add("ui-card-heading");
     heading.textContent = project.heading;
     textContainer.appendChild(heading);
+
     // Create Description
     const description = document.createElement("p");
     description.classList.add("ui-card-paragraph");
     description.textContent = project.description;
     textContainer.appendChild(description);
+
     // Create Icons Container
     const icons = document.createElement("span");
     icons.classList.add("ui-card-icons");
     textContainer.appendChild(icons);
+
     // Create Icons based on Boolean true / false in data
     if (project.showHtml) {
       const htmlIcon = document.createElement("i");
@@ -92,15 +96,18 @@ document.addEventListener("DOMContentLoaded", function () {
     buttonsContainer.classList.add("ui-card-buttons-container");
     textContainer.appendChild(buttonsContainer);
 
+    /////////////////////////////
     // Create Button - Github Repo
     const linkGithub = document.createElement("a");
     linkGithub.title = "Click to GitHub Repo";
     linkGithub.href = project.githubLink;
     linkGithub.target = "_blank";
+
     // Create Button inside a-tag
     const button = document.createElement("button");
     button.classList.add("ui-card-button");
     linkGithub.appendChild(button);
+
     // Create class and text inside button
     const githubIcon = document.createElement("i");
 
@@ -114,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const buttonText = document.createTextNode("GitHub Repo");
     button.appendChild(buttonText);
 
-    //////////////////////////
+    /////////////////////////////
     //Create Button 2 - Live View
     const linkLive = document.createElement("a");
     linkLive.title = "Click to Live View";
