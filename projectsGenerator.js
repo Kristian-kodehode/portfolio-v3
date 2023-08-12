@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "svg-items"
     );
     button.appendChild(githubIcon);
-    const buttonText = document.createTextNode("GitHub Repo");
+    const buttonText = document.createTextNode("Code View");
     button.appendChild(buttonText);
 
     /////////////////////////////

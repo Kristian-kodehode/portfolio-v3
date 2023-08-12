@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 :root {
-  --col-primary: #3a7d8c;
-  --col-primary80: hsla(191, 41%, 39%, 0.3);
-  --col-secondary: hsl(56, 96%, 91%);
-  --col-secondary80: hsla(56, 96%, 91%, 0.2);
-  --col-shadow: #55b6cc;
+  --col-primary: ""; /* #3a7d8c */
+  --col-primary80: ""; /* hsla(191, 41%, 39%, 0.3) */
+  --col-secondary: ""; /* hsl(56, 96%, 91%) */
+  --col-secondary80: ""; /* hsla(56, 96%, 91%, 0.2) */
+  --col-shadow: ""; /* #55b6cc */
   --url-image: "";
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -23,10 +23,12 @@ html {
 }
 body {
   background-color: var(--col-primary);
-
   color: var(--col-secondary);
 
-  /* background-image: url(images/ChillixHome.jpg); */
+  background-image: var(--url-image);
+  background-attachment: fixed;
+  background-repeat: space;
+
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
@@ -38,12 +40,12 @@ section {
 .page-content-container {
   max-width: 1200px;
   margin: 0 auto;
-  background-image: var(--url-image);
-  /* background-image: url(--col-bgimage); */
-
-  /* backdrop-filter: blur(20px); */
-  /* -webkit-backdrop-filter: blur(20px); */
 }
+
+/*
+  background-repeat: space;
+  background-size: contain;
+*/
 .section-headings {
   padding-bottom: 16px;
   font-size: 24px;
