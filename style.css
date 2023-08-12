@@ -390,7 +390,9 @@ Easier to navigate
 }
 .ui-card {
   min-width: 350px;
-  background-color: var(--col-primary);
+  /* background-color: var(--col-primary); */
+  background-color: var(--col-primary80);
+  backdrop-filter: blur(20px);
   border-radius: 8px;
   box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -562,7 +564,6 @@ Easier to navigate
 
 .accordion-header {
   letter-spacing: 0.6px;
-  /* background-color: var(--col-primary); */
   background-color: var(--col-secondary80);
   padding: 16px;
   display: flex;

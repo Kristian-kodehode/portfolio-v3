@@ -1,31 +1,31 @@
 [
   {
     "col-primary": "#3a7d8c",
-    "col-primary80": "hsla(191, 41%, 39%, 0.3)",
+    "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
     "col-secondary": "#fefbd0",
     "col-secondary80": "hsl(56, 96%, 91%, 0.1)",
     "col-shadow": "#55b6cc"
   },
   {
     "col-primary": "#333333",
-    "col-primary80": "hsla(0, 0, 0.2, 0.3)",
-    "col-secondary": "#ffffff",
+    "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
+    "col-secondary": "#f5f5f5",
     "col-secondary80": "hsl(0, 0%, 100%, 0.1)",
-    "col-shadow": "#ffffff"
+    "col-shadow": "#505050"
   },
   {
-    "col-primary": "#ffffff",
-    "col-primary80": "hsla(0, 0%, 100%, 0.3)",
+    "col-primary": "#f5f5f5",
+    "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
     "col-secondary": "#333333",
     "col-secondary80": "hsl(0, 0%, 20%, 0.1)",
-    "col-shadow": "#333333"
+    "col-shadow": "#ffffff"
   },
   {
     "col-primary": "#6528F7",
     "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
     "col-secondary": "#EDE4FF",
     "col-secondary80": "hsl(260, 100%, 95%, 0.3)",
-    "col-shadow": "#EDE4FF"
+    "col-shadow": "#6366F0"
   },
   {
     "col-primary": "#023535",
