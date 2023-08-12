@@ -28,7 +28,9 @@ body {
   background-image: var(--url-image);
   background-attachment: fixed;
   /* background-repeat: space; */
+  background-repeat: no-repeat;
   background-size: cover;
+  /* background-size: contain; */
   background-position: top, right;
   margin: 0 auto;
 }
