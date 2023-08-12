@@ -27,8 +27,9 @@ body {
 
   background-image: var(--url-image);
   background-attachment: fixed;
-  background-repeat: space;
-
+  /* background-repeat: space; */
+  background-size: cover;
+  background-position: top, right;
   margin: 0 auto;
 }
 body::-webkit-scrollbar {
