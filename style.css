@@ -192,11 +192,12 @@ nav {
 
 /* Theme menu container */
 .theme-menu {
+  border-top: 1px solid var(--col-secondary80);
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background-color: var(--col-primary80);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -240,6 +241,7 @@ nav {
 
 .theme-radios {
   height: 30vh;
+  /* border: 1px solid coral; */
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -675,5 +677,9 @@ Easier to navigate
   }
   .icon-hover-size {
     font-size: 32px;
+  }
+
+  .theme-menu {
+    height: 40vh;
   }
 }
