@@ -419,7 +419,7 @@ Easier to navigate
 .ui-card {
   min-width: 350px;
   /* background-color: var(--col-primary); */
-  background-color: var(--col-primary80);
+  background-color: var(--col-primary10);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   border-radius: 8px;

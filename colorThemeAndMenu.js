@@ -76,6 +76,10 @@ const applyTheme = (themeIndex) => {
     selectedTheme["col-primary80"]
   );
   document.documentElement.style.setProperty(
+    "--col-primary10",
+    selectedTheme["col-primary10"]
+  );
+  document.documentElement.style.setProperty(
     "--col-secondary",
     selectedTheme["col-secondary"]
   );
