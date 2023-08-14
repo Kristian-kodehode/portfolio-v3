@@ -45,12 +45,12 @@
     "url-image": ""
   },
   {
-    "col-primary": "#181D26",
+    "col-primary": "#0C3140",
     "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
     "col-primary10": "hsla(0, 0%, 100%, 0.1)",
     "col-secondary": "#FFFFFF",
     "col-secondary80": "hsl(0, 0%, 100%, 0.1)",
     "col-shadow": "#ffffff",
-    "url-image": "images/bg5.png"
+    "url-image": "images/bg9.svg"
   }
 ]
