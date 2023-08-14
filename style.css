@@ -26,7 +26,7 @@ body {
   color: var(--col-secondary);
 
   background-image: var(--url-image);
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   /* background-repeat: space; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -543,6 +543,8 @@ Easier to navigate
   scale: (1);
   transition: 0.07s;
   border: 1px solid rgba(255, 255, 255, 0);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 .contact-icons-div:hover {
   transform: scale(0.95);
@@ -599,6 +601,8 @@ Easier to navigate
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 th {
   text-align: left;
@@ -626,6 +630,8 @@ td:hover {
 .accordion-content {
   display: none;
   padding: 16px;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 .active {
   display: block;
