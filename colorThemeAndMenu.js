@@ -44,7 +44,12 @@ closeOverlay.addEventListener("click", () => {
 //
 
 let colorThemes = [];
-let currentThemeIndex = 0;
+// let currentThemeIndex = 0;
+//Localstorage update:
+let currentThemeIndex = localStorage.getItem("currentThemeIndex");
+if (currentThemeIndex === null) {
+  currentThemeIndex = 0;
+}
 
 // Fetch color themes from JSON
 const fetchColorThemes = async () => {
@@ -62,6 +67,9 @@ const applyThemeFromRadio = () => {
     document.querySelector('.theme-radios input[type="radio"]:checked').value
   );
   applyTheme(selectedThemeIndex);
+  //Localstorage update:
+  currentThemeIndex = selectedThemeIndex;
+  localStorage.setItem("currentThemeIndex", currentThemeIndex);
 };
 
 const applyTheme = (themeIndex) => {
