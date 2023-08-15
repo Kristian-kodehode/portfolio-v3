@@ -26,16 +26,9 @@ body {
   color: var(--col-secondary);
 
   background-image: var(--url-image);
-
-  /* background-repeat: no-repeat; */
   background-attachment: fixed;
   background-size: cover;
-
-  /*
-  background-attachment: fixed; */
-
-  /* background-position: top, right; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 body::-webkit-scrollbar {
   display: none;
