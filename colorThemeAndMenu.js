@@ -45,12 +45,9 @@ closeOverlay.addEventListener("click", () => {
 //
 
 let colorThemes = [];
-// const randomTheme = () => {
-//   colorThemes[Math.floor(Math.random() * colorThemes.length)];
-//   console.log("Clicked randomTheme");
-// };
+// const randomTheme = colorThemes[Math.floor(Math.random() * colorThemes.length)];
 // let currentThemeIndex = 0;
-//Localstorage update:
+//LOCALSTORAGE UPDATE:
 let currentThemeIndex = localStorage.getItem("currentThemeIndex");
 if (currentThemeIndex === null) {
   currentThemeIndex = 0;
@@ -72,7 +69,7 @@ const applyThemeFromRadio = () => {
     document.querySelector('.theme-radios input[type="radio"]:checked').value
   );
   applyTheme(selectedThemeIndex);
-  //Localstorage update:
+  //LOCALSTORAGE UPDATE:
   currentThemeIndex = selectedThemeIndex;
   localStorage.setItem("currentThemeIndex", currentThemeIndex);
 };
