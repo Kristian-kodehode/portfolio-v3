@@ -24,15 +24,6 @@ html {
 body {
   background-color: var(--col-primary);
   color: var(--col-secondary);
-
-  background-image: var(--url-image);
-  background-attachment: fixed;
-  /* background-repeat: space; */
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  background-position: top, right;
-  margin: 0 auto;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -43,6 +34,15 @@ section {
 .page-content-container {
   max-width: 1200px;
   margin: 0 auto;
+
+  background-image: var(--url-image);
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: top, right;
+  /* margin: 0 auto; */
 }
 
 /*
