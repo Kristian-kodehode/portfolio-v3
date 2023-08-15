@@ -5,6 +5,7 @@ const menuIcon = document.getElementById("menuIcon");
 const themeMenu = document.getElementById("themeMenu");
 const overlay = document.getElementById("overlay");
 const closeOverlay = document.getElementById("close-overlay");
+const randomThemeButton = document.getElementById("random-theme-button");
 
 // Toggle the theme menu's visibility and overlay
 menuIcon.addEventListener("click", () => {
@@ -44,6 +45,10 @@ closeOverlay.addEventListener("click", () => {
 //
 
 let colorThemes = [];
+// const randomTheme = () => {
+//   colorThemes[Math.floor(Math.random() * colorThemes.length)];
+//   console.log("Clicked randomTheme");
+// };
 // let currentThemeIndex = 0;
 //Localstorage update:
 let currentThemeIndex = localStorage.getItem("currentThemeIndex");
