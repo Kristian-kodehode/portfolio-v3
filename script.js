@@ -1,6 +1,7 @@
 // ACCORDIAN LOGIG
 document.addEventListener("DOMContentLoaded", function () {
   const accordionItems = document.querySelectorAll(".accordion-item");
+
   let activeItem = null;
 
   accordionItems.forEach(function (item) {
