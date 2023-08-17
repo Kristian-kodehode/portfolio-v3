@@ -620,9 +620,11 @@ td:hover {
 .accordion-header:hover {
   text-decoration: underline;
 }
-.accordion-header:hover .accordian-icons {
+
+/* ROTATE ICON */
+/* .accordion-header:hover .accordian-icons {
   transform: rotate(180deg);
-}
+} */
 .accordion-content {
   display: none;
   padding: 16px;
