@@ -622,15 +622,11 @@ td:hover {
 }
 
 /* ROTATE ICON */
-/* .accordion-header:hover .accordian-icons {
-  transform: rotate(180deg);
-} */
-
-.accordian-header .accordian-icons {
+/* .accordian-header .accordian-icons {
 }
 .open .accordian-icons {
   transform: rotate(180deg);
-}
+} */
 .accordion-content {
   display: none;
   padding: 16px;
