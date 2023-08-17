@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "svg-items"
     );
     button2.appendChild(liveIcon);
-    const button2Text = document.createTextNode("Live View");
+    const button2Text = document.createTextNode("Experience");
     button2.appendChild(button2Text);
 
     buttonsContainer.appendChild(linkGithub);

@@ -19,7 +19,7 @@ const projectsData = {
     {
       id: 2,
       img: "images/Donut-color.png",
-      heading: "App : Donut Color",
+      heading: "App : HEX Generator",
       description:
         "Generate and store wonderful colors in HEX code by rotating this donut. A fun and original concept.",
       showHtml: true,
@@ -84,7 +84,7 @@ const projectsData = {
     {
       id: 6,
       img: "images/saturnproject.png",
-      heading: "Webpage : Saturn",
+      heading: "Design : Saturn",
       description:
         "Group project with Mohammad in class. Task: to create a site about Saturn. Great experience and collaboration. Html and Css only.",
       showHtml: true,
