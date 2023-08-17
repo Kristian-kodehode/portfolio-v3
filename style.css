@@ -623,11 +623,7 @@ td:hover {
 }
 
 /* ROTATE ICON */
-/* .accordian-header .accordian-icons {
-}
-.open .accordian-icons {
-  transform: rotate(180deg);
-} */
+
 .accordion-content {
   display: none;
   padding: 16px;
