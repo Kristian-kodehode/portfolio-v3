@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   accordionItems.forEach((item) => {
     const header = item.querySelector(".accordion-header");
-    const icon = item.querySelector(".accordian-icons"); // Correct class name here
+    const icon = item.querySelector(".accordian-icons");
 
     header.addEventListener("click", () => {
       const content = item.querySelector(".accordion-content");
@@ -25,28 +25,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
-/*OLD
-document.addEventListener("DOMContentLoaded", function () {
-  const accordionItems = document.querySelectorAll(".accordion-item");
-  let activeItem = null;
-
-  accordionItems.forEach((item) => {
-    const header = item.querySelector(".accordion-header");
-
-    header.addEventListener("click", () => {
-      const content = item.querySelector(".accordion-content");
-
-      if (activeItem && activeItem !== item) {
-        activeItem
-          .querySelector(".accordion-content")
-          .classList.remove("active");
-      }
-
-      content.classList.toggle("active");
-      activeItem = item;
-    });
-  });
-});
-
-*/
