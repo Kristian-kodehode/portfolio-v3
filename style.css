@@ -156,6 +156,24 @@ nav {
   text-align: center;
   letter-spacing: 0.6px;
 }
+
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 /* ICONS */
 .svg-items {
   color: var(--col-secondary);
@@ -174,6 +192,23 @@ nav {
   transform: rotate(360deg);
 }
 
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 /* THEME SELECTOR */
 /* Overlay style */
 .overlay {
@@ -279,13 +314,9 @@ nav {
   color: var(--col-secondary80);
 }
 
-/* .theme-switches {
-} */
-
 /* Class to toggle menu expansion */
 .expanded {
   display: block;
-
   max-height: 100%; /* Show the menu by setting max-height to 100% */
 }
 
@@ -348,6 +379,23 @@ Easier to navigate
   outline-offset: 4px;
 }
 
+/*
+Added empty space to keep it more organized
+Easier to navigate
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 .icons {
   font-size: 32px;
 }
