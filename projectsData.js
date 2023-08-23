@@ -112,8 +112,7 @@ const projectsData = {
       showRouter: false,
       showThree: false,
       showFigma: true,
-      githubLink:
-        "https://github.com/Kristian-kodehode/003-signUp-page/settings/pages",
+      githubLink: "https://github.com/Kristian-kodehode/003-signUp-page",
       liveLink: "https://kristian-kodehode.github.io/003-signUp-page/",
     },
   ],
