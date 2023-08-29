@@ -49,6 +49,9 @@ section {
 
 .section-about {
   height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
 }
 
 .section-contact {
@@ -346,7 +349,7 @@ Easier to navigate
 }
 .tooltip .tooltiptext {
   visibility: hidden;
-  min-width: 120px;
+  min-width: 110px;
 
   background-color: var(--col-secondary80);
   color: var(--col-secondary);
@@ -367,13 +370,9 @@ Easier to navigate
   visibility: visible;
 }
 .tooltiptext:hover {
-  transition: 1s ease-in-out;
-  letter-spacing: 2px;
-  font-weight: 700;
+  /* font-weight: 700; */
   background-color: var(--col-secondary);
   color: var(--col-primary);
-  outline: dashed 1px var(--col-secondary);
-  outline-offset: 4px;
 }
 
 /*
@@ -567,8 +566,16 @@ Easier to navigate
 
 
 */
+/* .about-and-faq-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1em;
+  border: 1px solid pink;
+} */
+
 .about-me-paragraph {
-  max-width: 780px;
+  /* max-width: 780px; */
+  width: 100%;
 }
 
 /*MISC ICON STYLINGS*/
@@ -659,6 +666,7 @@ Easier to navigate
 .accordion {
   padding-top: 90px;
   height: 100vh;
+  width: 100%;
 }
 
 .accordion-header {
@@ -771,5 +779,16 @@ Easier to navigate
 
   .theme-menu {
     height: 60vh;
+  }
+
+  .section-about {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    gap: 24px;
+    /* border: 1px solid brown; */
+    height: 80vh;
+  }
+  .accordion {
+    padding-top: 0px;
   }
 }
