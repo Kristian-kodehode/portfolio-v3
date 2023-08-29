@@ -48,7 +48,7 @@ section {
 }
 
 .section-about {
-  height: 100vh;
+  /* height: 100vh; */
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 16px;
@@ -566,12 +566,6 @@ Easier to navigate
 
 
 */
-/* .about-and-faq-container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 1em;
-  border: 1px solid pink;
-} */
 
 .about-me-paragraph {
   /* max-width: 780px; */
@@ -682,17 +676,18 @@ Easier to navigate
 }
 th {
   text-align: left;
+  font-weight: 100;
 }
 td {
   text-align: left;
   padding: 2px 8px;
-  font-weight: 100;
+  /* font-weight: 100; */
 }
-th:hover + td,
+/* th:hover + td,
 td:hover {
   font-weight: 400;
   letter-spacing: 2px;
-}
+} */
 
 .accordion-header:hover {
   text-decoration: underline;
@@ -786,7 +781,7 @@ Easier to navigate
     align-items: flex-start;
     gap: 24px;
     /* border: 1px solid brown; */
-    height: 80vh;
+    /* height: 80vh; */
   }
   .accordion {
     padding-top: 0px;
