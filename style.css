@@ -53,6 +53,7 @@ section {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 16px;
+  /* border: 1px solid black; */
 }
 
 .section-contact {
@@ -665,7 +666,7 @@ Easier to navigate
 
 .accordion {
   padding-top: 90px;
-  height: 100vh;
+   /* height: 100vh;  */
   width: 100%;
 }
 
@@ -761,6 +762,9 @@ Easier to navigate
     width: 70%;
     font-size: 18px;
   }
+  section {
+    padding: 112px 16px 0px 16px;
+  }
 
   .skills-icons {
     gap: 0.5em;
@@ -793,5 +797,17 @@ Easier to navigate
   }
   .accordion {
     padding-top: 0px;
+
   }
+  /* .section-contact {
+    height: 60vh;
+  } */
+}
+
+
+@media only screen and (min-height: 1440px) {
+  .introduction {
+    height: 85vh;
+  }
+
 }
