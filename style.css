@@ -577,6 +577,9 @@ Easier to navigate
   /* margin: 40px 0px; */
   padding-bottom: 120px;
 }
+.contact-me h2 {
+  padding: 0;
+}
 .contact-me-icons {
   padding-top: 16px;
   display: grid;
