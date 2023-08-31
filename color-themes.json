@@ -9,10 +9,10 @@
     "url-image": ""
   },
   {
-    "col-primary": "#333333",
+    "col-primary": "#242424",
     "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
     "col-primary10": "hsla(0, 0%, 0.1, 0.1)",
-    "col-secondary": "#f5f5f5",
+    "col-secondary": "#f6f6f6",
     "col-secondary80": "hsl(0, 0%, 100%, 0.1)",
     "col-shadow": "#505050",
     "url-image": ""
@@ -21,7 +21,7 @@
     "col-primary": "#f5f5f5",
     "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
     "col-primary10": "hsla(0, 0%, 0.1, 0.1)",
-    "col-secondary": "#333333",
+    "col-secondary": "#242424",
     "col-secondary80": "hsl(0, 0%, 20%, 0.1)",
     "col-shadow": "#ffffff",
     "url-image": ""
