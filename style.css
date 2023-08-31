@@ -52,7 +52,8 @@ section {
   /* height: 100vh; */
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 16px;
+  gap: 16px; 
+  
   /* border: 1px solid black; */
 }
 
@@ -405,6 +406,12 @@ Easier to navigate
   /* padding: 96px 16px 0px 16px; */
   height: 100vh;
 }
+
+.intro-parapgraph {
+
+  font-size: 16px;
+}
+
 .introduction > a {
   text-align: center;
   color: var(--col-secondary);
@@ -573,7 +580,13 @@ Easier to navigate
 
 .about-me-paragraph {
   /* max-width: 780px; */
+  /* border: 1px solid black; */
   width: 100%;
+
+}
+
+.about-me-paragraph p {
+  font-size: 16px;
 }
 
 /*MISC ICON STYLINGS*/
@@ -789,11 +802,10 @@ Easier to navigate
   }
 
   .section-about {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: flex-start;
-    gap: 24px;
-    /* border: 1px solid brown; */
-    /* height: 80vh; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* align-items: flex-start; */
+    gap: 24px; 
+
   }
   .accordion {
     padding-top: 0px;
@@ -804,6 +816,16 @@ Easier to navigate
   } */
 }
 
+@media only screen and (min-width: 1024px) {
+
+  /* .section-about {
+     grid-template-columns: repeat(2, 1fr); 
+    align-items: flex-start;
+    gap: 24px;
+  } */
+
+}
+
 
 @media only screen and (min-height: 1440px) {
   .introduction {
@@ -811,3 +833,4 @@ Easier to navigate
   }
 
 }
+
