@@ -15,10 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
           .classList.remove("active");
         activeItem
           .querySelector(".accordian-icons")
-          .classList.remove("icon-active"); // Correct class name here
+          .classList.remove("icon-active");
       }
 
       content.classList.toggle("active");
+
       icon.classList.toggle("icon-active");
 
       activeItem = item;

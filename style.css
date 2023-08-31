@@ -722,7 +722,8 @@ td:hover {
   -webkit-backdrop-filter: blur(30px);
 }
 .active {
-  display: block;
+   display: block; 
+  /* background-color: pink; */
 }
 .accordian-icons {
   font: 10px;
