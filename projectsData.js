@@ -2,6 +2,22 @@ const projectsData = {
   projects: [
     {
       id: 1,
+      img: "images/ecomshop.png",
+      heading: "Webshop : eCommmerce Shop",
+      description:
+        "This is my first attempt at creating a eCommerce webstore using React. This project will continuosly update. ",
+      showHtml: true,
+      showCss: true,
+      showJs: true,
+      showReact: true,
+      showRouter: true,
+      showThree: false,
+      showFigma: true,
+      githubLink: "https://github.com/Kristian-kodehode/ecommerce-userflow",
+      liveLink: "https://kristian-kodehode.github.io/ecommerce-userflow/",
+    },
+    {
+      id: 2,
       img: "images/tictactoe.png",
       heading: "Game : Tic Tac Toe",
       description:
@@ -17,7 +33,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/react-tictactoe/",
     },
     {
-      id: 2,
+      id: 3,
       img: "images/Donut-color.png",
       heading: "App : HEX Generator",
       description:
@@ -34,7 +50,7 @@ const projectsData = {
         "https://64cfa4a4be3d0c49430eb478--rad-gumdrop-b595c7.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       img: "images/calculator-react.png",
       heading: "App : Calculator",
       description:
@@ -50,7 +66,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/calculator-v3/",
     },
     {
-      id: 4,
+      id: 5,
       img: "images/stopwatch.png",
       heading: "App : Stopwatch",
       description:
@@ -66,7 +82,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
     },
     {
-      id: 5,
+      id: 6,
       img: "images/qrgenerator.png",
       heading: "App : QR Generator",
       description:
@@ -82,7 +98,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/04_QRCodeGenerator/",
     },
     {
-      id: 6,
+      id: 7,
       img: "images/saturnproject.png",
       heading: "Design : Saturn",
       description:
@@ -100,7 +116,7 @@ const projectsData = {
         "https://kristian-kodehode.github.io/005-Gruppeprosjekt-Saturn-Mokhammad-Kristian/",
     },
     {
-      id: 7,
+      id: 8,
       img: "images/startjourney.png",
       heading: "Design : Sign Up Form",
       description:
