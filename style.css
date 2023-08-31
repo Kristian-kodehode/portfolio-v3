@@ -194,6 +194,10 @@ Easier to navigate
 .circle-mail-icon:hover {
   transform: rotate(360deg);
 }
+iconify-icon {
+  font-size: 28px;
+  /* font-size: 45px; */
+}
 
 /*
 Added empty space to keep it more organized
@@ -685,10 +689,7 @@ Easier to navigate
   width: 100%;
   
 }
-.accordion:hover {
-  /* box-shadow: none; */
-   /* box-shadow: 3px 3px 10px #37373720;   */
-}
+
 
 .accordion-header {
   letter-spacing: 0.6px;
@@ -794,6 +795,9 @@ Easier to navigate
     font-size: 40px;
     /* font-size: 32px; */
     margin-bottom: 40px;
+  }
+  iconify-icon {
+     font-size: 45px; 
   }
   .section-headings {
     font-size: 32px;
