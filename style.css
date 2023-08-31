@@ -483,8 +483,12 @@ Easier to navigate
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   border-radius: 8px;
-  box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
+   box-shadow: -1px -1px 4px var(--col-shadow) ; 
   overflow: hidden;
+  box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.ui-card:hover {
+  
 }
 .ui-cards-container a {
   list-style: none;
@@ -495,13 +499,15 @@ Easier to navigate
   width: 100%;
   object-fit: cover;
   cursor: pointer;
-  filter: saturate(60%);
-  transition: 1s;
+  filter: saturate(80%);
+  transition: 0.4s;
 }
 .ui-card-image:hover {
   filter: saturate(100%);
-  transform: scale(1.05);
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  
+   transform: scale(1.03); 
+   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2); 
+  
 }
 
 .ui-card-text-container {
@@ -770,7 +776,10 @@ Easier to navigate
   .ui-cards-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
+
+
   h1 {
     font-size: 64px;
   }
