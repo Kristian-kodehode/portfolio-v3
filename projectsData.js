@@ -83,10 +83,10 @@ const projectsData = {
     },
     {
       id: 6,
-      img: "images/qrgenerator.png",
-      heading: "App : QR Generator",
+      img: "images/taskmaster.png",
+      heading: "App : Taskmaster",
       description:
-        "Fun little app that generates QR code from URLs. First time using an API which was a lot of fun.",
+        "This is my take on the traditional todo-list. This was the first time i dived deeper into localstorage in js.",
       showHtml: true,
       showCss: true,
       showJs: true,
@@ -94,8 +94,8 @@ const projectsData = {
       showRouter: false,
       showThree: false,
       showFigma: true,
-      githubLink: "https://github.com/Kristian-kodehode/04_QRCodeGenerator",
-      liveLink: "https://kristian-kodehode.github.io/04_QRCodeGenerator/",
+      githubLink: "https://github.com/Kristian-kodehode/taskMasterApp",
+      liveLink: "https://kristian-kodehode.github.io/taskMasterApp/",
     },
     {
       id: 7,
