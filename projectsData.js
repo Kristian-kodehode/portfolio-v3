@@ -46,8 +46,7 @@ const projectsData = {
       showThree: true,
       showFigma: false,
       githubLink: "https://github.com/Kristian-kodehode/color-donut",
-      liveLink:
-        "https://64cfa4a4be3d0c49430eb478--rad-gumdrop-b595c7.netlify.app/",
+      liveLink: "https://rad-gumdrop-b595c7.netlify.app/",
     },
     {
       id: 4,
