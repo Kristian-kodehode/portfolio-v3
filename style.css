@@ -412,8 +412,8 @@ Easier to navigate
 }
 
 .intro-parapgraph {
-
   font-size: 16px;
+
 }
 
 .introduction > a {
@@ -487,9 +487,9 @@ Easier to navigate
   overflow: hidden;
   box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
 }
-.ui-card:hover {
+/* .ui-card:hover {
   
-}
+} */
 .ui-cards-container a {
   list-style: none;
   cursor: default;
@@ -791,7 +791,7 @@ Easier to navigate
     font-size: 26px;
   }
   .intro-parapgraph {
-    width: 70%;
+    width: 80%;
     font-size: 18px;
   }
   section {
@@ -856,3 +856,9 @@ Easier to navigate
 
 }
 
+@media only screen and (min-width: 991px) {
+  .intro-parapgraph {
+    /* width: 65%; */
+    font-size: 24px;
+  }
+}
