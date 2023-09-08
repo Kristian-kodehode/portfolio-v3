@@ -708,6 +708,20 @@ Easier to navigate
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
 }
+.cv-link-styling {
+  
+  color: var(--col-secondary);
+  text-decoration: underline;
+  transition: 0.1s;
+}
+.cv-link-styling:focus {
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+.cv-link-styling:hover {
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
 th {
   text-align: left;
   font-weight: 100;
