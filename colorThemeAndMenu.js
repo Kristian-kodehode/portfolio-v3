@@ -49,9 +49,9 @@ let colorThemes = [];
 // let currentThemeIndex = 0;
 //LOCALSTORAGE UPDATE:
 let currentThemeIndex = localStorage.getItem("currentThemeIndex");
-if (currentThemeIndex === null) {
-  currentThemeIndex = 0;
-}
+// if (currentThemeIndex === null) {
+//   currentThemeIndex = 0;
+// }
 
 // Fetch color themes from JSON
 const fetchColorThemes = async () => {

@@ -27,30 +27,30 @@
     "url-image": ""
   },
   {
-    "col-primary": "#6528F7",
+    "col-primary": "#215253",
     "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
-    "col-primary10": "hsla(0, 0%, 0.1, 0.1)",
-    "col-secondary": "#EDE4FF",
-    "col-secondary80": "hsl(260, 100%, 95%, 0.3)",
-    "col-shadow": "#6366F0",
+    "col-primary10": "hsla(0, 0%, 0%, 0.1)",
+    "col-secondary": "#FFFFDE",
+    "col-secondary80": "hsl(0, 0%, 100%, 0.1)",
+    "col-shadow": "#409FA1",
     "url-image": ""
   },
   {
     "col-primary": "#023535",
     "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
-    "col-primary10": "hsla(0, 0%, 100%, 0.1)",
+    "col-primary10": "hsla(180, 93%, 11%, 0.1)",
     "col-secondary": "#0CABA8",
-    "col-secondary80": "hsl(0, 0%, 100%, 0.1)",
-    "col-shadow": "#0CABA8",
+    "col-secondary80": "hsl(179, 87%, 36%, 0.3)",
+    "col-shadow": "#058282",
     "url-image": ""
   },
   {
     "col-primary": "#0C3140",
-    "col-primary80": "hsla(0, 0%, 0.1, 0.1)",
-    "col-primary10": "hsla(0, 0%, 100%, 0.1)",
+    "col-primary80": "hsla(197, 68%, 15%, 0.1)",
+    "col-primary10": "hsla(0, 0%, 0%, 0.1)",
     "col-secondary": "#FFFFFF",
     "col-secondary80": "hsl(0, 0%, 100%, 0.1)",
-    "col-shadow": "#ffffff",
+    "col-shadow": "#279DCC",
     "url-image": "images/bg11.svg"
   }
 ]
