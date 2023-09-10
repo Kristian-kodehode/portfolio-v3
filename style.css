@@ -595,6 +595,23 @@ Easier to navigate
 
 }
 
+.about-me-top-paragraph-with-image-div {
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+.about-me-first-paragraph {
+  grid-column: 1;
+}
+
+.about-me-image {
+  background-color: var(--col-secondary80);
+  border: 3px solid var(--col-secondary);
+  border-radius: 8px;
+  grid-column: 1;
+  margin-bottom: 16px;
+  box-shadow: 3px 3px 10px #37373720; 
+}
+
 .about-me-paragraph p {
   font-size: 16px;
 }
@@ -787,6 +804,17 @@ Easier to navigate
 */
 
 /*MEDIA QUERY */
+
+@media only screen and (min-width: 660px) {
+  .about-me-first-paragraph {
+    grid-column: 3;
+  }
+  .about-me-top-paragraph-with-image-div{
+    gap: 8px;
+    max-width: 628px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .ui-cards-container {
     display: grid;
@@ -816,16 +844,17 @@ Easier to navigate
   .skills-icons {
     gap: 0.5em;
 
-    font-size: 40px;
+    font-size: 32px;
     /* font-size: 32px; */
     margin-bottom: 40px;
   }
   iconify-icon {
-     font-size: 45px; 
+     font-size: 36px; 
   }
   .section-headings {
     font-size: 32px;
   }
+
   .contact-me-icons {
     padding-top: 16px;
     grid-template-columns: repeat(4, 1fr);
@@ -851,7 +880,18 @@ Easier to navigate
   /* .section-contact {
     height: 60vh;
   } */
+
+  .about-me-top-paragraph-with-image-div{
+    gap: 8px;
+    max-width: 1200px;
+  }
+  .about-me-first-paragraph {
+    font-size: 24px;
+  }
 }
+
+
+
 
 @media only screen and (min-width: 1024px) {
 
@@ -877,3 +917,4 @@ Easier to navigate
     font-size: 24px;
   }
 }
+
