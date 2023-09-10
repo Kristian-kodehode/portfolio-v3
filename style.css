@@ -596,25 +596,41 @@ Easier to navigate
 }
 
 .about-me-top-paragraph-with-image-div {
-display: grid;
-grid-template-columns: repeat(1,1fr);
+/* display: grid; */
+display: flex;
+gap: 8px;
+height: 144px;
+
+
 }
-.about-me-first-paragraph {
-  grid-column: 1;
+.about-me-info-head {
+  font-weight: 700;
 }
+.about-me-info {
+  font-weight: 300;
+}
+
+
 
 .about-me-image {
   background-color: var(--col-secondary80);
   border: 3px solid var(--col-secondary);
   border-radius: 8px;
-  grid-column: 1;
+   /* grid-column: 1;  */
   margin-bottom: 16px;
   box-shadow: 3px 3px 10px #37373720; 
+  background-color: pink;
+  height: 100%;
+  object-fit: cover;
 }
 
-.about-me-paragraph p {
+ .about-me-paragraph p {
   font-size: 16px;
-}
+} 
+
+
+
+
 
 /*MISC ICON STYLINGS*/
 .contact-me {
@@ -725,6 +741,7 @@ Easier to navigate
   cursor: pointer;
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
+  font-weight: 700;
 }
 .cv-link-styling {
   
@@ -742,11 +759,12 @@ Easier to navigate
 }
 th {
   text-align: left;
-  font-weight: 100;
+  font-weight: 700;
 }
 td {
   text-align: left;
   padding: 2px 8px;
+  font-weight: 300;
   /* font-weight: 100; */
 }
 /* th:hover + td,
@@ -806,13 +824,7 @@ Easier to navigate
 /*MEDIA QUERY */
 
 @media only screen and (min-width: 660px) {
-  .about-me-first-paragraph {
-    grid-column: 3;
-  }
-  .about-me-top-paragraph-with-image-div{
-    gap: 8px;
-    max-width: 628px;
-  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -868,10 +880,7 @@ Easier to navigate
   }
 
   .section-about {
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* align-items: flex-start; */
     gap: 24px; 
-
   }
   .accordion {
     padding-top: 0px;
@@ -881,13 +890,6 @@ Easier to navigate
     height: 60vh;
   } */
 
-  .about-me-top-paragraph-with-image-div{
-    gap: 8px;
-    max-width: 1200px;
-  }
-  .about-me-first-paragraph {
-    font-size: 24px;
-  }
 }
 
 
