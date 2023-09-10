@@ -651,6 +651,7 @@ Easier to navigate
 .contact-icons-resize {
   transition: 0.3s;
   opacity: 0.7;
+
 }
 .contact-icons-div:hover {
   transform: scale(0.95);
