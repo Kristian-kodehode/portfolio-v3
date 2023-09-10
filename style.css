@@ -67,6 +67,7 @@ h1 {
 p {
   font-size: 14px;
   line-height: 1.5;
+  letter-spacing: 0.6px;
 }
 a {
   text-decoration: none;
@@ -598,7 +599,7 @@ Easier to navigate
 .about-me-top-paragraph-with-image-div {
 /* display: grid; */
 display: flex;
-gap: 8px;
+gap: 16px;
 height: 144px;
 
 
@@ -626,6 +627,8 @@ height: 144px;
 
  .about-me-paragraph p {
   font-size: 16px;
+  /* line-height: 24px; */
+  letter-spacing: 0.6px;
 } 
 
 
@@ -760,11 +763,13 @@ Easier to navigate
 th {
   text-align: left;
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 td {
   text-align: left;
   padding: 2px 8px;
   font-weight: 300;
+  letter-spacing: 0.5px;
   /* font-weight: 100; */
 }
 /* th:hover + td,
