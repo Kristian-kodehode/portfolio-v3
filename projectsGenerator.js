@@ -93,33 +93,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Create Button Container
     const buttonsContainer = document.createElement("div");
-    buttonsContainer.classList.add("ui-card-buttons-container");
+    if (project.githubLink) {
+      buttonsContainer.classList.add("ui-card-buttons-container");
+    } else {
+      buttonsContainer.classList.add("ui-card-buttons-container-single");
+    }
     textContainer.appendChild(buttonsContainer);
 
     /////////////////////////////
     // Create Button - Github Repo
-    const linkGithub = document.createElement("a");
-    linkGithub.title = "Click to GitHub Repo";
-    linkGithub.href = project.githubLink;
-    linkGithub.target = "_blank";
+    if (project.githubLink) {
+      const linkGithub = document.createElement("a");
+      linkGithub.title = "Click to GitHub Repo";
+      linkGithub.href = project.githubLink;
+      linkGithub.target = "_blank";
 
-    // Create Button inside a-tag
-    const button = document.createElement("button");
-    button.classList.add("ui-card-button");
-    linkGithub.appendChild(button);
+      // Create Button inside a-tag
+      const button = document.createElement("button");
+      button.classList.add("ui-card-button");
+      linkGithub.appendChild(button);
 
-    // Create class and text inside button
-    const githubIcon = document.createElement("i");
+      const buttonText = document.createTextNode("Se kode");
 
-    githubIcon.classList.add(
-      "custom-hover-icon",
-      "fa-brands",
-      "fa-github",
-      "svg-items"
-    );
-    button.appendChild(githubIcon);
-    const buttonText = document.createTextNode("Code View");
-    button.appendChild(buttonText);
+      // Create class and text inside button
+      const githubIcon = document.createElement("i");
+
+      githubIcon.classList.add(
+        "custom-hover-icon",
+        "fa-brands",
+        "fa-github",
+        "svg-items"
+      );
+      button.appendChild(buttonText);
+      button.appendChild(githubIcon);
+
+      buttonsContainer.appendChild(linkGithub);
+    }
 
     /////////////////////////////
     //Create Button 2 - Live View
@@ -130,22 +139,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Create Button inside a-tag
     const button2 = document.createElement("button");
-    button2.classList.add("ui-card-button");
+    button2.classList.add("ui-card-button-contained");
     linkLive.appendChild(button2);
+
+    const button2Text = document.createTextNode("Prøv prosjektet");
 
     // Create class and text inside button
     const liveIcon = document.createElement("i");
     liveIcon.classList.add(
-      "custom-hover-icon",
+      // "custom-hover-icon",
       "fa-solid",
-      "fa-globe",
+      // "fa-globe",
+      "fa-arrow-up-right-from-square",
       "svg-items"
     );
-    button2.appendChild(liveIcon);
-    const button2Text = document.createTextNode("Experience");
     button2.appendChild(button2Text);
+    button2.appendChild(liveIcon);
 
-    buttonsContainer.appendChild(linkGithub);
     buttonsContainer.appendChild(linkLive);
 
     return card;

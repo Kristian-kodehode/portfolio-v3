@@ -4,167 +4,72 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+      content="width=device-width, initial-scale=1.0" />
     <link
       rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
+      href="https://fonts.googleapis.com" />
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
-      crossorigin
-    />
+      crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <script
       type="module"
-      src="projectsData.js"
-    ></script>
+      src="projectsData.js"></script>
     <script
       type="module"
-      src="projectsGenerator.js"
-    ></script>
+      src="projectsGenerator.js"></script>
     <script
       type="module"
-      src="colorThemeAndMenu.js"
-    ></script>
+      src="colorThemeAndMenu.js"></script>
     <script
       type="module"
       src="https://kit.fontawesome.com/c873273b0e.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script
       type="module"
-      src="script.js"
-    ></script>
+      src="script.js"></script>
     <link
       rel="stylesheet"
-      href="style.css"
-    />
+      href="style.css" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="/misc/klogo.svg"
-    />
+      href="/misc/klogo.svg" />
     <title>Portfolio : Kristian</title>
   </head>
   <body>
     <nav class="navbar-top">
       <div class="navbar-top-content">
         <a
-          href="mailto:kristian007.kodehode@gmail.com?subject=I would like to have a chat with you"
-        >
-          <i class="fa-solid fa-envelope circle-mail-icon"></i>
+          href="#introduction"
+          class="navbar-top-logo">
+          <h3>Kristian Køningsberg</h3>
         </a>
 
-        <!-- BURGER MENU FOR THEME SWITCHING -->
+        <!-- THEME SWICTHER BUTTON -->
         <div
           class="menu-icon"
-          id="menuIcon"
-        >
-          <i class="fa-solid fa-paint-roller"></i>
+          style="font-size: medium"
+          id="menuIcon">
+          <!-- <i class="fa-solid fa-paint-roller"></i> -->
+          <i class="fa-solid fa-droplet"></i>
         </div>
       </div>
     </nav>
 
     <div class="page-content-container">
-      <!-- THEME BUTTONS AND OVERLAY -->
-      <div
-        class="overlay"
-        id="overlay"
-      ></div>
-      <div
-        class="theme-menu"
-        id="themeMenu"
-      >
-        <div class="inner-menu">
-          <div
-            id="close-overlay"
-            class="close-overlay"
-          >
-            <i class="fa-regular fa-circle-xmark"></i>
-            <!-- <h5>Close Overlay</h5> -->
-          </div>
-          <div class="theme-radios">
-            <div class="theme-switches">
-              <input
-                type="radio"
-                id="theme0"
-                name="theme"
-                value="0"
-                checked
-              />
-              <label for="theme0">Blue Theme</label>
-            </div>
-            <div class="theme-switches">
-              <input
-                type="radio"
-                id="theme1"
-                name="theme"
-                value="1"
-              />
-              <label for="theme1">Dark Theme</label>
-            </div>
-            <div class="theme-switches">
-              <input
-                type="radio"
-                id="theme2"
-                name="theme"
-                value="2"
-              />
-              <label for="theme2">Light Theme</label>
-            </div>
-            <div class="theme-switches">
-              <input
-                type="radio"
-                id="theme3"
-                name="theme"
-                value="3"
-              />
-              <label for="theme3">The Original</label>
-            </div>
-            <div class="theme-switches">
-              <input
-                type="radio"
-                id="theme4"
-                name="theme"
-                value="4"
-              />
-              <label for="theme4">Deep Water</label>
-            </div>
-            <div class="theme-switches">
-              <input
-                type="radio"
-                id="theme5"
-                name="theme"
-                value="5"
-              />
-              <label for="theme5">Glassmorph</label>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--  -->
       <section
         id="introduction"
-        class="introduction"
-      >
-        <h1>
-          Welcome <span style="font-weight: 100">to the</span> <br />
-          portfolio <span style="font-weight: 100">of</span> <br />
-          Kristian
-        </h1>
-
+        class="introduction">
+        <h1>Hei og velkommen til min portefølje!</h1>
         <p class="intro-parapgraph">
-          Blending years of <strong>graphic</strong> design and the intuitive
-          artistry of <strong>UI/UX</strong> design together with newly minted
-          <strong>frontend</strong> development skills. This is the
-          <strong>unique</strong> combination where clean aesthetics meets clean
-          functionality.
+          Jeg er en kreativ <b>designer</b> og junior <b>frontend</b> utvikler
+          fra <b>Stavanger</b>. Jeg trives best når jeg ligger i midtpunktet
+          mellom det tekniske, det estetiske og det brukervennlige.
         </p>
         <div class="skills-icons">
           <div class="tooltip">
@@ -179,8 +84,7 @@
           <div class="tooltip">
             <i
               title="CSS"
-              class="fa-brands fa-css3-alt"
-            ></i>
+              class="fa-brands fa-css3-alt"></i>
             <a
               class="tooltiptext"
               target="_blank"
@@ -200,8 +104,7 @@
           <div class="tooltip">
             <iconify-icon
               icon="bxl:typescript"
-              class="icon-typescript"
-            ></iconify-icon>
+              class="icon-typescript"></iconify-icon>
             <a
               class="tooltiptext"
               target="_blank"
@@ -254,153 +157,162 @@
               >GIT</a
             >
           </div>
-
           <div class="tooltip">
             <i class="fa-solid fa-person-walking-arrow-right"></i>
-            <p class="tooltiptext">continue to learn</p>
+            <p class="tooltiptext">fortsetter å lære</p>
           </div>
         </div>
-
-        <a href="#section-projects">
+        <a
+          href="#section-projects"
+          style="position: absolute; bottom: 80px; left: 50%">
           <i class="fa-solid fa-angle-down svg-items"></i>
         </a>
       </section>
 
       <section id="section-projects">
-        <h2 class="section-headings">Projects</h2>
+        <h2 class="section-headings">Prosjekter</h2>
 
         <div
           id="ui-cards-container"
-          class="ui-cards-container"
-        >
+          class="ui-cards-container">
           <!-- CARDS GETS CREATED HERE BY JAVASCRIPT -->
         </div>
       </section>
 
       <section
         id="section-about"
-        class="section-about"
-      >
+        class="section-about">
         <div class="contact-child1">
-          <h2 class="section-headings">About me</h2>
+          <h2 class="section-headings">Hvem er jeg?</h2>
           <div class="about-me-paragraph">
             <div class="about-me-top-paragraph-with-image-div">
               <img
                 src="images/portrait112px.png"
                 class="about-me-image"
-                alt=""
-              />
+                alt="bilde av Kristian" />
               <div class="about-me-first-paragraph">
                 <table>
-                  <p class="about-me-info-head">Name:</p>
+                  <p class="about-me-info-head">Navn:</p>
                   <p class="about-me-info">Kristian Køningsberg</p>
                 </table>
                 <table>
-                  <p class="about-me-info-head">Year:</p>
+                  <p class="about-me-info-head">Født:</p>
                   <p class="about-me-info">1982</p>
                 </table>
                 <table>
-                  <p class="about-me-info-head">Passion:</p>
-                  <p class="about-me-info">Design, Code, Music</p>
+                  <p class="about-me-info-head">Lidenskap:</p>
+                  <p class="about-me-info">Design, Kode, Musikk</p>
                 </table>
               </div>
             </div>
             <br />
-            <p class="about-me-info-paragraph">
-              Hi, my name is Kristian and i am a frontend developer, graphic
-              designer and UI/UX designer from Stavanger. I joined the frontend
-              bootcamp with Kodehodene in March 2023 where i have been able to
-              learn and grow my skills in
-              <strong>HTML, CSS, Javascript, React and more</strong>
-              . It has been a great experience and i am ready for the next step.
+            <h2
+              class="about-me-info-paragraph"
+              style="font-weight: 400">
+              Jeg er en kreativ <b>designer</b> og junior
+              <b>frontend</b> utvikler som liker å skape gode brukergrensesnitt
+              og <b>opplevelser</b>. Jeg trives aller best i grensen mellom det
+              tekniske, det kreative og det brukervennlige.
               <br />
               <br />
-              Beside being openminded, creative and loyal, i have a passion for
-              creating, such as musicproduction, design, 3D and now, coding. I
-              love tech and amongst those, AI has become a great asset in my
-              workflow. Currently i am focusing on frontend skills like React,
-              design and Typescript.
+              X-faktor for meg i yrket er potensialet til å gjøre folks liv
+              lettere og bedre.
               <br />
               <br />
-              If you like what you have seen so far and i peaked your interest,
-              you can contact me using any of the options below.
-              <br />
-              <br />
-              I look forward to hear from you.
-              <br />
-              Have a great day.
-              <br />
-              <br />
-            </p>
+            </h2>
+            <div
+              style="
+                border-block: 1px solid lightgray;
+                padding-block: 16px;
+                max-width: 450px;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: start;
+              ">
+              <h3>
+                "One of the deep secrets of life is that all that is really
+                worth the doing is what we do for others."
+              </h3>
+              <i>- Alice in Wonderland, Lewis Carroll.</i>
+            </div>
           </div>
         </div>
         <div
           class="accordion"
-          id="accordion"
-        >
+          id="accordion">
           <!-- <h2 class="section-headings">FAQ Me</h2> -->
           <div class="accordian-and-faq-container">
             <div class="accordians-container">
               <div class="accordion-item">
                 <div class="accordion-header">
-                  <p>Personal Info</p>
+                  <p>Personlig Info</p>
                   <div class="accordian-icons">
                     <i class="fa-solid fa-chevron-down"></i>
                   </div>
                 </div>
                 <div class="accordion-content">
                   <table>
-                    <th>Full name</th>
+                    <th>Navn</th>
                     <td>Kristian Køningsberg</td>
                   </table>
                   <table>
-                    <th>Year Born</th>
+                    <th>Født</th>
                     <td>1982</td>
                   </table>
                   <table>
-                    <th>Language</th>
-                    <td>Norwegian, English</td>
+                    <th>Språk</th>
+                    <td>Norsk, Engelsk</td>
                   </table>
                   <table>
-                    <th>Country</th>
-                    <td>Norway</td>
+                    <th>Land</th>
+                    <td>Norge</td>
                   </table>
                   <table>
-                    <th>City</th>
+                    <th>Hjemby</th>
                     <td>Stavanger</td>
                   </table>
                   <table>
-                    <th>Email</th>
+                    <th>E-post</th>
                     <td>kristian007.kodehode@gmail.com</td>
                   </table>
                 </div>
               </div>
               <div class="accordion-item">
                 <div class="accordion-header">
-                  <p>CV</p>
+                  <p>Bakgrunn og CV</p>
                   <div class="accordian-icons">
                     <i class="fa-solid fa-chevron-down"></i>
                   </div>
                 </div>
                 <div class="accordion-content">
                   <a
-                    title="This link opens up Google Drive"
+                    title="Link tar deg til Google drive som gir deg min CV"
+                    aria-label="Link tar deg til Google drive som gir deg min CV"
                     class="cv-link-styling"
                     href="https://drive.google.com/file/d/1SYjOD1bOVwOoKF2LapFt87h-f4kg6_id/view?usp=drive_link"
                     target="_blank"
-                    >Click Me to open full CV (Google Drive)</a
+                    >Klikk for å åpne full CV (Google Drive)</a
                   >
                   <table>
-                    <th>2023-Now</th>
+                    <th>2024 - Nå</th>
+                    <td>Kodeverket - Frontend utvikler | Design</td>
+                  </table>
+                  <table>
+                    <th>2024-2024</th>
+                    <td>Solintegra - Frontend utvikler | Lead design</td>
+                  </table>
+                  <table>
+                    <th>2023-2024</th>
                     <td>Kodehode Frontend Bootcamp</td>
                   </table>
                   <table>
                     <th>2020-2023</th>
-                    <td>Courses: 3D,UI/UX,graphics++</td>
+                    <td>Kurs: 3D,UI/UX,graphics++</td>
                   </table>
                   <table>
                     <th>2000-2020</th>
-                    <td>Running own company</td>
+                    <td>Driver eget selskap</td>
                   </table>
                   <table>
                     <th>2008-2009</th>
@@ -408,13 +320,13 @@
                   </table>
                   <table>
                     <th>2006-2008</th>
-                    <td>Education: Graphic Design NKF</td>
+                    <td>Utdannelse: Graphic Design NKF</td>
                   </table>
                 </div>
               </div>
               <div class="accordion-item">
                 <div class="accordion-header">
-                  <p>Favorite Things</p>
+                  <p>Mine favoritter</p>
                   <div class="accordian-icons">
                     <i class="fa-solid fa-chevron-down"></i>
                   </div>
@@ -425,7 +337,7 @@
                     <td>Daft Punk</td>
                   </table>
                   <table>
-                    <th>Movie</th>
+                    <th>Film</th>
                     <td>Pulp Fiction</td>
                   </table>
                   <table>
@@ -433,18 +345,22 @@
                     <td>Ozark</td>
                   </table>
                   <table>
-                    <th>Animated</th>
+                    <th>Animert</th>
                     <td>Arcane</td>
                   </table>
                   <table>
-                    <th>Videogame</th>
+                    <th>Bok</th>
+                    <td>Atomic habits</td>
+                  </table>
+                  <table>
+                    <th>Spill</th>
                     <td>The Last Of Us</td>
                   </table>
                 </div>
               </div>
               <div class="accordion-item">
                 <div class="accordion-header">
-                  <p>Additonal Software Skills</p>
+                  <p>Litt mer Software Skills</p>
                   <div class="accordian-icons">
                     <i class="fa-solid fa-chevron-down"></i>
                   </div>
@@ -452,7 +368,11 @@
                 <div class="accordion-content">
                   <table>
                     <th>Design</th>
-                    <td>Figma, Adobe CC, Affinity</td>
+                    <td>Figma, Affinity</td>
+                  </table>
+                  <table>
+                    <th>Low/No-Code</th>
+                    <td>Wordpress</td>
                   </table>
 
                   <table>
@@ -460,13 +380,13 @@
                     <td>Adobe After Effects</td>
                   </table>
                   <table>
-                    <th>Music</th>
+                    <th>Musikk</th>
                     <td>Ableton Live, Logic</td>
                   </table>
 
                   <table>
                     <th>AI</th>
-                    <td>ChatGPT, Midjourney</td>
+                    <td>ChatGPT, Github Copilot</td>
                   </table>
                   <table>
                     <th>3D</th>
@@ -481,58 +401,54 @@
 
       <section
         id="section-contact"
-        class="section-contact"
-      >
+        class="section-contact">
         <div class="contact-me">
-          <h2 class="section-headings">Contact me</h2>
+          <h2 class="section-headings">Kontakt meg</h2>
           <div class="contact-me-text">
-            <p>..or check additional work</p>
+            <p>..eller sjekk ut mer arbeid jeg har gjort</p>
           </div>
           <!-- <button>Contact me</button> -->
           <div class="contact-me-icons">
             <a
-              title="Opens Email App"
+              title="Åpner din valgte epost app"
+              aria-label="Åpner din valgte epost app"
               class="contact-icons-div"
-              href="mailto:kristian007.kodehode@gmail.com?subject=I would like to have a chat with you"
-            >
+              href="mailto:kristian007.kodehode@gmail.com?subject=I would like to have a chat with you">
               <i
-                class="fa-solid fa-envelope svg-items contact-icons-resize"
-              ></i>
-              <p class="contact-me-sub">Email me</p>
+                class="fa-solid fa-envelope svg-items contact-icons-resize"></i>
+              <p class="contact-me-sub">Send e-post</p>
             </a>
 
             <a
-              title="Opens GitHub"
+              title="Åpner GitHub i ny fane"
+              aria-label="Åpner GitHub i ny fane"
               class="contact-icons-div"
               href="https://github.com/Kristian-kodehode"
-              target="_blank"
-            >
+              target="_blank">
               <i class="fa-brands fa-github svg-items contact-icons-resize"></i>
               <p class="contact-me-sub">Gihub</p>
             </a>
 
             <a
-              title="Opens Instagram"
+              title="Åpner Instagram i ny fane"
+              aria-label="Åpner Instagram i ny fane"
               class="contact-icons-div"
               href="https://www.instagram.com/kkoningsberg/"
-              target="_blank"
-            >
+              target="_blank">
               <i
-                class="fa-brands fa-instagram svg-items contact-icons-resize"
-              ></i>
+                class="fa-brands fa-instagram svg-items contact-icons-resize"></i>
               <p class="contact-me-sub">Design</p>
             </a>
 
             <a
-              title="Opens Spotify"
+              title="Åpner Spotify i ny fane"
+              aria-label="Åpner spotify i ny fane"
               class="contact-icons-div"
               href="https://open.spotify.com/artist/3vnHIDc8ARHkPw3OM7lQ4e?si=zNpx6tGDQ42Xc3Xq516jdw"
-              target="_blank"
-            >
+              target="_blank">
               <i
-                class="fa-brands fa-spotify svg-items contact-icons-resize"
-              ></i>
-              <p class="contact-me-sub">Music</p>
+                class="fa-brands fa-spotify svg-items contact-icons-resize"></i>
+              <p class="contact-me-sub">Musikkproduksjon</p>
             </a>
           </div>
         </div>
@@ -545,25 +461,25 @@
           <a href="#introduction">
             <i class="fa-solid fa-house svg-items icon-hover-size"></i>
           </a>
-          <p>home</p>
+          <p>hjem</p>
         </div>
         <div class="navbar-bottom-items">
           <a href="#section-projects">
             <i class="fa-solid fa-code svg-items icon-hover-size"></i>
           </a>
-          <p>projects</p>
+          <p>prosjekter</p>
         </div>
         <div class="navbar-bottom-items">
           <a href="#section-about">
             <i class="fa-solid fa-mug-hot svg-items icon-hover-size"></i>
           </a>
-          <p>about me</p>
+          <p>om meg</p>
         </div>
         <div class="navbar-bottom-items">
           <a href="#section-contact">
             <i class="fa-solid fa-envelope svg-items icon-hover-size"></i>
           </a>
-          <p>contact</p>
+          <p>kontakt</p>
         </div>
       </div>
     </nav>
