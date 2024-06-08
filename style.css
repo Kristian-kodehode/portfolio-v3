@@ -195,6 +195,21 @@ Easier to navigate
   color: var(--col-secondary);
   font-size: 1rem;
 }
+.arrow-icons {
+  color: var(--col-secondary);
+  font-size: 2rem;
+  text-align: center;
+  transition: all ease-in 0.3s;
+}
+.arrow-icons:hover {
+  color: var(--col-secondary80);
+}
+
+.go-icon {
+  color: var(--col-secondary);
+  font-size: 24px;
+}
+
 .circle-mail-icon {
   border: 1px solid var(--col-secondary);
   padding: 10px;
@@ -815,6 +830,9 @@ Easier to navigate
     font-size: 32px;
 
     margin-bottom: 40px;
+  }
+  .go-icon {
+    font-size: 32px;
   }
   iconify-icon {
      font-size: 36px; 
