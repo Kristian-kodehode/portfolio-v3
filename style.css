@@ -95,9 +95,7 @@ button {
   margin-top: 16px;
   transition: 0.4s;
 }
-button:hover {
-  background-color: var(--col-secondary80);
-}
+
 .mylogo {
   background-color: var(--col-secondary);
   color: #3a7d8c;
@@ -127,9 +125,7 @@ nav {
   letter-spacing: -1px;
   transition: all ease-in 0.3s;
 }
-.navbar-top-logo:hover {
-  letter-spacing: -0.4px;
-}
+
 .navbar-top,
 .navbar-bottom {
   position: fixed;
@@ -201,9 +197,7 @@ Easier to navigate
   text-align: center;
   transition: all ease-in 0.3s;
 }
-.arrow-icons:hover {
-  color: var(--col-secondary80);
-}
+
 
 .go-icon {
   color: var(--col-secondary);
@@ -219,9 +213,7 @@ Easier to navigate
   transition: transform 2s ease-in-out;
 }
 
-.circle-mail-icon:hover {
-  transform: rotate(360deg);
-}
+
 iconify-icon {
   font-size: 28px;
   /* font-size: 45px; */
@@ -253,10 +245,7 @@ Easier to navigate
   cursor: pointer;
   transition: 1s;
 }
-.menu-icon:hover {
-  transform: scale(0.9);
-  rotate: -90deg;
-}
+
 
 
 
@@ -306,14 +295,7 @@ Easier to navigate
   margin-left: -60px;
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-.tooltiptext:hover {
-  /* font-weight: 700; */
-  background-color: var(--col-secondary);
-  color: var(--col-primary);
-}
+
 
 /*
 Added empty space to keep it more organized
@@ -440,11 +422,7 @@ Easier to navigate
   filter: saturate(80%);
   transition: 0.4s;
 }
-.ui-card-image:hover {
-  filter: saturate(100%);
-   transform: scale(1.03); 
-   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2); 
-}
+
 
 .ui-card-text-container {
   padding: 16px;
@@ -512,20 +490,11 @@ Easier to navigate
   color: var(--col-primary);
   
 }
-.ui-card-button-contained:hover {
-  background-color: var(--col-primary);
-  color: var(--col-secondary);
-}
-.ui-card-button-contained:hover > .svg-items{
-  
-  color: var(--col-secondary);
-}
+
 .custom-hover-icon {
   transition: transform 1s;
 }
-button:hover .custom-hover-icon {
-  transform: rotate(360deg);
-}
+
 
 .ui-card-buttons-container {
   display: grid; 
@@ -638,30 +607,19 @@ height: 144px;
   letter-spacing: -1px;
   padding-top: 4px;
   color: var(--col-secondary);
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s;
 }
-.contact-icons-div:hover .contact-icons-resize {
-  transform: scale(1.5);
-  opacity: 1;
-}
-.contact-icons-div:hover .contact-me-sub {
-  opacity: 1;
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
+
 
 .contact-icons-resize {
   transition: all ease-in 0.3s;
+  font-size: 24px;
 
    /* opacity: 0.7;  */
 
 }
-.contact-icons-div:hover {
-  transform: scale(0.95);
-  
-  border: 1px solid var(--col-secondary);
-}
+
 
 .icon-hover-size {
   /* opacity: 0.7; */
@@ -669,10 +627,7 @@ height: 144px;
   font-size: 24px;
 }
 
-.icon-hover-size:hover {
-  transform: scale(0.8);
-  /* opacity: 1; */
-}
+
 
 /*
 Added empty space to keep it more organized
@@ -728,10 +683,7 @@ Easier to navigate
   letter-spacing: 0.5px;
   font-weight: 700;
 }
-.cv-link-styling:hover {
-  letter-spacing: 0.5px;
-  font-weight: 700;
-}
+
 th {
   text-align: left;
   font-weight: 700;
@@ -742,17 +694,9 @@ td {
   padding: 2px 8px;
   font-weight: 300;
   letter-spacing: 0.5px;
-  /* font-weight: 100; */
 }
-/* th:hover + td,
-td:hover {
-  font-weight: 400;
-  letter-spacing: 2px;
-} */
 
-.accordion-header:hover {
-  text-decoration: underline;
-}
+
 
 /* ROTATE ICON */
 
@@ -805,6 +749,96 @@ Easier to navigate
 }
 
 @media only screen and (min-width: 768px) {
+
+  .contact-me-sub {
+    letter-spacing: -3px;
+    font-size: 0.85;
+  
+    letter-spacing: -1px;
+    padding-top: 4px;
+    color: var(--col-secondary);
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: var(--col-secondary80);
+  }
+
+  .navbar-top-logo:hover {
+    letter-spacing: -0.4px;
+  }
+
+  .arrow-icons:hover {
+    color: var(--col-secondary80);
+  }
+
+  .circle-mail-icon:hover {
+    transform: rotate(360deg);
+  }
+
+  .menu-icon:hover {
+    transform: scale(0.9);
+    rotate: -90deg;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltiptext:hover {
+    /* font-weight: 700; */
+    background-color: var(--col-secondary);
+    color: var(--col-primary);
+  }
+
+  .ui-card-image:hover {
+    filter: saturate(100%);
+     transform: scale(1.03); 
+     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2); 
+  }
+
+  .ui-card-button-contained:hover {
+    background-color: var(--col-primary);
+    color: var(--col-secondary);
+  }
+
+  .ui-card-button-contained:hover > .svg-items{ 
+    color: var(--col-secondary);
+  }
+
+  button:hover .custom-hover-icon {
+    transform: rotate(360deg);
+  }
+
+  .contact-icons-div:hover .contact-icons-resize {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  
+  .contact-icons-div:hover .contact-me-sub {
+    opacity: 1;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .contact-icons-div:hover {
+    transform: scale(0.95);
+    border: 1px solid var(--col-secondary);
+  }
+  
+  .icon-hover-size:hover {
+    transform: scale(0.9);
+    /* opacity: 1; */
+  }
+
+  .cv-link-styling:hover {
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+
+  .accordion-header:hover {
+    text-decoration: underline;
+  }
 
   h1 {
     font-size: 4rem;
