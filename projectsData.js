@@ -5,7 +5,7 @@ const projectsData = {
       img: "images/solcellekart2.webp",
       heading: "Saas : Solcellekart (2024)",
       description:
-        "Solcellekart som skal hjelpe mennesker til å finne ut beste løsning og pris for solcelleløsninger. Et av mine ansvarsområder hos Solintegra. Rolle: Frontend | UX",
+        "Hjelper deg å finne beste pris på solcelleløsninger. Denne jobbet jeg på hos Solintegra. Rolle: Frontend | UX",
       showHtml: false,
       showCss: false,
       showJs: true,
