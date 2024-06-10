@@ -20,7 +20,7 @@ const projectsData = {
       img: "images/ecomshop.webp",
       heading: "Webshop : Nettbutikk (2023)",
       description:
-        "En e-handelsnettbutikk laget i av React som et øvelsesprosjekt. Bruker fakestore api. Den henger sammen med Saferpay prosjektet under.",
+        "En e-handelsnettbutikk laget i av React som et øvelsesprosjekt. Bruker fakestore api. Den henger sammen med Saferpay prosjektet.",
       showHtml: true,
       showCss: true,
       showJs: true,
