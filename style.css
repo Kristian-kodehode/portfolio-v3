@@ -849,10 +849,10 @@ Easier to navigate
   }
 
   .introduction {
-    max-width: 620px;  }
+    max-width: 720px;  }
 
   .intro-parapgraph {
-    width: 80%;
+    width: 75%;
   }
   section {
     padding: 112px 16px 0px 16px;
@@ -934,16 +934,14 @@ Easier to navigate
 @media only screen and (min-height: 1440px) {
   .introduction {
     height: 85vh;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    /* max-width: 800px; */
     
   }
 
 }
 
 @media only screen and (min-width: 991px) {
-  .intro-parapgraph {
-    /* width: 65%; */
-    /* font-size: 24px; */
-  }
+
 }
 
