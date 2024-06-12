@@ -326,7 +326,7 @@ Easier to navigate
 }
 
 .intro-img {
-  position: relative;
+  /* position: relative; */
   border: 1px solid var(--col-secondary80);
   border-radius: 8px;
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
