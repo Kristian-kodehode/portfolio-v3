@@ -67,22 +67,19 @@ section {
 }
 
 h1 {
-  /* font-family: 'Times New Roman', Times, serif; */
   font-size: 3rem;
   letter-spacing: -1px;
+  line-height: 1.25;
 }
 p {
   font-size: 1rem;
-   line-height: 1.5; 
-  /* line-height: 1.1; */
+  line-height: 1.6; 
   letter-spacing: 0.5px;
 }
 a {
   text-decoration: none;
 }
 button {
-  /* border: 1px solid rgba(255, 255, 255, 0); */
-  /* border: none; */
   border: 1px solid var(--col-secondary);
   background-color: var(--col-primary);
   color: var(--col-secondary);
@@ -90,7 +87,6 @@ button {
   font-weight: 700;
   border-radius: 4px;
   padding: 12px;
-  /* width: 100%; */
   cursor: pointer;
   margin-top: 16px;
   transition: 0.4s;
@@ -113,9 +109,7 @@ Standards
 
 /* NAV BAR */
 nav {
-  /* height: 60px; */
   width: 100vw;
-  /* background-color: var(--col-primary80); */
   background-color: var(--col-primary);
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
@@ -216,7 +210,6 @@ Easier to navigate
 
 iconify-icon {
   font-size: 28px;
-  /* font-size: 45px; */
 }
 
 /*
@@ -274,7 +267,6 @@ Easier to navigate
 .tooltiptext {
   font-size: 0.75rem;
   cursor: pointer;
-  /* overflow: hidden; */
 }
 .tooltip .tooltiptext {
   visibility: hidden;
@@ -318,14 +310,31 @@ Easier to navigate
   font-size: 32px;
 }
 /*INTRODUCTION STYLING*/
+.mainpage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
 .introduction {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  /* padding: 96px 16px 0px 16px; */
-  height: 100vh; 
-  max-width: 480px;
+  padding-bottom: 2rem;
 }
+
+.intro-img {
+  position: relative;
+  border: 1px solid var(--col-secondary80);
+  border-radius: 8px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  height: 18%;
+  transition: all ease-in 0.1s;
+}
+
 
 .intro-parapgraph {
   font-size: 1.25rem;
@@ -342,10 +351,7 @@ Easier to navigate
   display: flex;
   gap: 0.5em;
   color: var(--col-secondary);
-  /* opacity: 0.6; */
-  /* opacity: 0.6; */
   font-size: 24px;
-  /* z-index: -1; */
 }
 
 .skills-icons > img {
@@ -394,18 +400,16 @@ Easier to navigate
 }
 .ui-card {
   min-width: 350px;
-  /* background-color: var(--col-primary); */
   background-color: var(--col-primary10);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   border-radius: 12px;
-   box-shadow: -1px -1px 4px var(--col-shadow) ; 
+  box-shadow: -1px -1px 4px var(--col-shadow) ; 
   overflow: hidden;
   box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* gap: 16px; */
 }
 /* .ui-card:hover {
   
@@ -427,24 +431,22 @@ Easier to navigate
 .ui-card-text-container {
   padding: 16px;
   color: var(--col-secondary);
-  /* background-color: antiquewhite; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* height: 100%; */
+  gap: 8px;
+
 }
 .ui-card-heading {
   text-transform: uppercase;
   font-size: 1.25rem;
-  /* letter-spacing: 1.1px; */
   letter-spacing: -0.7px;
+  border-bottom: 1px solid var(--col-secondary);
+  padding-block: 8px;
 }
 .ui-card-paragraph {
   padding: 4px 0px 12px 0px;
-  line-height: 1.4;
-   height: 80px;
+  height: 90px;
   overflow-y: hidden;
-  font-size: 0.9rem;
 }
 .ui-card-icons {
   align-items: flex-end;
@@ -527,14 +529,11 @@ Easier to navigate
 */
 
 .about-me-paragraph {
-  /* max-width: 780px; */
-  /* border: 1px solid black; */
   width: 100%;
 
 }
 
 .about-me-top-paragraph-with-image-div {
-/* display: grid; */
 display: flex;
 gap: 16px;
 height: 144px;
@@ -554,17 +553,13 @@ height: 144px;
    border: 2px solid var(--col-primary80); 
   border-radius: 8px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-
   margin-bottom: 16px;
-
   height: 100%;
   object-fit: cover;
-
 }
 
  .about-me-paragraph p {
   font-size: 1rem;
-  /* line-height: 24px; */
   letter-spacing: 0.5px;
 } 
 
@@ -574,7 +569,6 @@ height: 144px;
 
 /*MISC ICON STYLINGS*/
 .contact-me {
-  /* margin: 40px 0px; */
   padding-bottom: 120px;
 }
 .contact-me h2 {
@@ -590,7 +584,6 @@ height: 144px;
   text-align: center;
   background-color: var(--col-secondary80);
   padding: 2em 2em 5em;
-  /* padding: 5em 2em; */
   scale: (1);
   transition: 0.07s;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -603,7 +596,6 @@ height: 144px;
 .contact-me-sub {
   letter-spacing: -3px;
   font-size: 0.85;
-
   letter-spacing: -1px;
   padding-top: 4px;
   color: var(--col-secondary);
@@ -611,18 +603,13 @@ height: 144px;
   transition: 0.3s;
 }
 
-
 .contact-icons-resize {
   transition: all ease-in 0.3s;
   font-size: 24px;
-
-   /* opacity: 0.7;  */
-
 }
 
 
 .icon-hover-size {
-  /* opacity: 0.7; */
   transition: 0.2s;
   font-size: 24px;
 }
@@ -652,9 +639,7 @@ Easier to navigate
 
 .accordion {
   padding-top: 90px;
-   /* height: 100vh;  */
   width: 100%;
-  
 }
 
 
@@ -708,7 +693,6 @@ td {
 }
 .active {
    display: block; 
-  /* background-color: pink; */
    box-shadow: 3px 3px 10px #37373720;  
 }
 .accordian-icons {
@@ -744,21 +728,29 @@ Easier to navigate
 
 /*MEDIA QUERY */
 
-@media only screen and (min-width: 660px) {
-
-}
-
 @media only screen and (min-width: 768px) {
+
+  .mainpage {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  .intro-img {
+    height: 40%;
+  }
 
   .contact-me-sub {
     letter-spacing: -3px;
     font-size: 0.85;
-  
     letter-spacing: -1px;
     padding-top: 4px;
     color: var(--col-secondary);
     opacity: 0;
     transition: 0.3s;
+  }
+
+  .intro-img:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   }
 
   button:hover {
@@ -786,7 +778,6 @@ Easier to navigate
     visibility: visible;
   }
   .tooltiptext:hover {
-    /* font-weight: 700; */
     background-color: var(--col-secondary);
     color: var(--col-primary);
   }
@@ -828,7 +819,6 @@ Easier to navigate
   
   .icon-hover-size:hover {
     transform: scale(0.9);
-    /* opacity: 1; */
   }
 
   .cv-link-styling:hover {
@@ -844,10 +834,6 @@ Easier to navigate
     font-size: 4rem;
   }
 
-  p {
-    line-height: 1.5;
-  }
-
   .introduction {
     max-width: 720px;  }
 
@@ -860,9 +846,7 @@ Easier to navigate
 
   .skills-icons {
     gap: 0.5em;
-
     font-size: 32px;
-
     margin-bottom: 40px;
   }
   .go-icon {
@@ -891,13 +875,12 @@ Easier to navigate
     padding-top: 0px;
 
   }
-  /* .section-contact {
-    height: 60vh;
-  } */
 
 }
 
 @media only screen and (min-width: 890px) {
+
+
   .ui-cards-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -914,11 +897,9 @@ Easier to navigate
 
 @media only screen and (min-width: 1024px) {
 
-  /* .section-about {
-     grid-template-columns: repeat(2, 1fr); 
-    align-items: flex-start;
-    gap: 24px;
-  } */
+  .intro-img {
+    height: 60%;
+  }
 
   .ui-cards-container {
     display: grid;
@@ -934,14 +915,9 @@ Easier to navigate
 @media only screen and (min-height: 1440px) {
   .introduction {
     height: 85vh;
-    /* background-color: aliceblue; */
-    /* max-width: 800px; */
-    
   }
 
-}
 
-@media only screen and (min-width: 991px) {
 
 }
 
