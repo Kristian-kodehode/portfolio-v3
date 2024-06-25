@@ -704,7 +704,7 @@ Easier to navigate
   transition: 0.1s;
 }
 .cv-link-styling:focus {
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   font-weight: 700;
 }
 
@@ -867,7 +867,7 @@ Easier to navigate
   }
 
   .cv-link-styling:hover {
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
     font-weight: 700;
   }
 
