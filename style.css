@@ -326,12 +326,14 @@ Easier to navigate
 }
 
 .intro-img {
+  display: none;
   /* position: relative; */
   border: 1px solid var(--col-secondary80);
   border-radius: 8px;
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
   object-fit: cover;
   height: 18%;
+  width: auto;
   transition: all ease-in 0.1s;
 }
 
@@ -736,6 +738,7 @@ Easier to navigate
     height: 100vh;
   }
   .intro-img {
+    display: block;
     height: 40%;
   }
 
