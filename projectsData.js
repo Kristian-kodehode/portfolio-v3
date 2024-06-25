@@ -65,10 +65,26 @@ const projectsData = {
     },
     {
       id: 4,
+      img: "images/foodie.png",
+      heading: "Nettside : Foodie (2023)",
+      description:
+        "Dette er en nettside med 3 nydelige oppskrifter. Denne er mitt testprosjekt for lære Next.js sammen med Sanity på backend.",
+      showHtml: false,
+      showCss: false,
+      showJs: true,
+      showReact: true,
+      showRouter: false,
+      showThree: false,
+      showFigma: true,
+      githubLink: "https://github.com/Kristian-kodehode/recipe",
+      liveLink: "https://recipe-alpha-pied.vercel.app/",
+    },
+    {
+      id: 5,
       img: "images/tictactoe.png",
       heading: "Spill : Tic Tac Toe (2023)",
       description:
-        "Det klassiske spillet Tic Tac Toe laget i React. Enkelt og greit.",
+        "Det klassiske spillet Tic Tac Toe laget i React. Et perfekt intro prosjekt til React som viser litt hva React har å by på.",
       showHtml: true,
       showCss: true,
       showJs: true,
@@ -80,7 +96,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/react-tictactoe/",
     },
     {
-      id: 5,
+      id: 6,
       img: "images/stopwatch.png",
       heading: "App : Stoppeklokke (2023)",
       description:
