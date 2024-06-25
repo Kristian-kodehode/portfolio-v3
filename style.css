@@ -261,32 +261,7 @@ Easier to navigate
 
 */
 
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-.tooltiptext {
-  font-size: 0.75rem;
-  cursor: pointer;
-}
-.tooltip .tooltiptext {
-  visibility: hidden;
-  min-width: 110px;
 
-  background-color: var(--col-primary);
-  color: var(--col-secondary);
-  border: 1px solid var(--col-secondary);
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 8px;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 10;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
 
 
 
@@ -363,16 +338,6 @@ Easier to navigate
   transition: all ease-in 0.1s;
 }
 
-/* .intro-img-parent {
-  display: none;
-  border: 1px solid var(--col-secondary80);
-  border-radius: 8px;
-  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
-  object-fit: cover;
-  height: 18%;
-  width: auto;
-  transition: all ease-in 0.1s;
-} */
 
 
 .intro-parapgraph {
@@ -386,12 +351,18 @@ Easier to navigate
   font-size: 32px;
 }
 
-.skills-icons {
+/* .skills-icons {
+  background-color: yellowgreen;
+  position: relative;
+  overflow: hidden;
   display: flex;
+  bottom: 80px;
   gap: 0.5em;
   color: var(--col-secondary);
   font-size: 24px;
 }
+
+
 
 .skills-icons > img {
   width: 40px;
@@ -399,16 +370,94 @@ Easier to navigate
 }
 .skills-icons .custom-icon {
   animation: rotate 10s linear infinite;
-}
+} */
 
-@keyframes rotate {
+/* @keyframes rotate {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .skill-item-icon {
+  flex-shrink: 0; 
+  margin-right: 20px; 
+  position: relative; 
 }
+
+.skill-item-icon:last-child {
+  margin-right: 0; 
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltiptext {
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 110px;
+
+  background-color: var(--col-primary);
+  color: var(--col-secondary);
+  border: 1px solid var(--col-secondary);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 8px;
+
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+} */
+
+.skills-icons-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.skills-icons {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.skill-item-icon {
+  flex-shrink: 0;
+  /* padding: 16px; */
+  flex: 0 0 auto;
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skill-item-icon > p {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  /* color: var(--col-secondary80); */
+}
+
+
 
 /*
 Added empty space to keep it more organized

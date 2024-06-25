@@ -17,6 +17,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet" />
     <script
       type="module"
       src="projectsData.js"></script>
@@ -31,6 +34,9 @@
       src="https://kit.fontawesome.com/c873273b0e.js"
       crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script
+      type="module"
+      src="iconsanimation.js"></script>
     <script
       type="module"
       src="script.js"></script>
@@ -64,132 +70,127 @@
     </nav>
 
     <div class="page-content-container">
-      <section
-        id="introduction"
-        class="mainpage">
-        <div class="introduction">
-          <h1 style="line-height: 1">
-            Kristian <br />
-            Køningsberg
-          </h1>
-          <p class="intro-parapgraph">
-            Jeg er en kreativ <b>designer</b> og junior <b>frontend</b> utvikler
-            fra <b>Stavanger</b> som trives best i grensen mellom det tekniske,
-            kreative og brukervennlige.
-          </p>
+      <section id="introduction">
+        <div class="mainpage">
+          <div class="introduction">
+            <h1 style="line-height: 1">
+              Kristian <br />
+              Køningsberg
+            </h1>
+            <p class="intro-parapgraph">
+              Jeg er en kreativ <b>designer</b> og junior
+              <b>frontend</b> utvikler fra <b>Stavanger</b> som trives best i
+              grensen mellom det tekniske, kreative og brukervennlige.
+            </p>
+          </div>
+          <a
+            href="#section-projects"
+            class="intro-img-link">
+            <img
+              class="intro-img"
+              src="images/kristianbig.webp"
+              alt="Bilde av kristian" />
+            <i
+              class="fa-solid fa-angle-down intro-arrow"
+              title="Gå til prosjekter"></i>
+          </a>
+        </div>
+
+        <div class="skills-icons-wrapper">
           <div class="skills-icons">
-            <div class="tooltip">
-              <i class="fa-brands fa-html5"></i>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://www.w3schools.com/html/default.asp"
-                >HTML</a
-              >
+            <div class="skill-item-icon">
+              <p>html5</p>
             </div>
-            <div class="tooltip">
-              <i
-                title="CSS"
-                class="fa-brands fa-css3-alt"></i>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://www.w3schools.com/css/"
-                >CSS</a
-              >
+            <div class="skill-item-icon">
+              <p>css3</p>
             </div>
-            <div class="tooltip">
-              <i class="fa-brands fa-square-js"></i>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://www.w3schools.com/js/"
-                >JAVASCRIPT</a
-              >
+            <div class="skill-item-icon">
+              <p>scss</p>
             </div>
-            <div class="tooltip">
-              <iconify-icon
-                icon="bxl:typescript"
-                class="icon-typescript"></iconify-icon>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://www.typescriptlang.org/"
-                >TYPESCRIPT</a
-              >
+            <div class="skill-item-icon">
+              <p>javascript</p>
             </div>
-            <div class="tooltip">
-              <i class="fa-brands fa-react custom-icon"></i>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://react.dev/"
-                >REACT</a
-              >
+            <div class="skill-item-icon">
+              <p>typescript</p>
             </div>
-            <div class="tooltip">
-              <iconify-icon icon="simple-icons:reactrouter"></iconify-icon>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://reactrouter.com/en/main"
-                >ROUTER</a
-              >
+            <div class="skill-item-icon">
+              <p>react</p>
             </div>
-            <div class="tooltip">
-              <iconify-icon icon="simple-icons:threedotjs"></iconify-icon>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://threejs.org/"
-                >THREE.JS</a
-              >
+            <div class="skill-item-icon">
+              <p>react-router</p>
             </div>
-            <div class="tooltip">
-              <i class="fa-brands fa-figma"></i>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://www.figma.com/ui-design-tool/"
-                >FIGMA</a
-              >
+            <div class="skill-item-icon">
+              <p>next.js</p>
             </div>
-            <div class="tooltip">
-              <i class="fa-brands fa-git-alt"></i>
-              <a
-                class="tooltiptext"
-                target="_blank"
-                href="https://git-scm.com/"
-                >GIT</a
-              >
+            <div class="skill-item-icon">
+              <p>tailwind</p>
             </div>
-            <div class="tooltip">
-              <a href="#section-projects">
-                <i class="fa-solid fa-person-walking-arrow-right go-icon"></i>
-              </a>
-              <a href="#section-projects">
-                <p class="tooltiptext">Gå til prosjekter</p>
-              </a>
+            <div class="skill-item-icon">
+              <p>mui</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>shadcn</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>three.js</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>figma</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>git</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>github</p>
+            </div>
+            <!-- Duplicate icons for smooth infinite animation -->
+            <div class="skill-item-icon">
+              <p>html5</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>css3</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>scss</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>javascript</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>typescript</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>react</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>react-router</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>next.js</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>tailwind</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>mui</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>shadcn</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>three.js</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>figma</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>git</p>
+            </div>
+            <div class="skill-item-icon">
+              <p>github</p>
             </div>
           </div>
         </div>
-
-        <a
-          href="#section-projects"
-          class="intro-img-link">
-          <img
-            class="intro-img"
-            src="images/kristianbig.webp"
-            alt="Bilde av kristian" />
-          <i
-            class="fa-solid fa-angle-down intro-arrow"
-            title="Gå til prosjekter"></i>
-        </a>
-        <!-- <a
-          href="#section-projects"
-          style="position: absolute; bottom: 80px; left: 50%">
-          <i class="fa-solid fa-angle-down arrow-icons"></i>
-        </a> -->
       </section>
 
       <section id="section-projects">
