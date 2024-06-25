@@ -26,3 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+console.log(
+  "Denne siden er kun bygget med html, css og vanilla javascript. Ingen rammeverk eller biblioteker er brukt."
+);
