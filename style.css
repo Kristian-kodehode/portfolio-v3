@@ -815,8 +815,8 @@ Easier to navigate
   }
 
   .menu-icon:hover {
-    transform: scale(0.9);
-    rotate: -90deg;
+    transform: scale(1.2);
+
   }
 
   .tooltip:hover .tooltiptext {
