@@ -2,15 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const container = document.querySelector(".skills-icons");
   const icons = Array.from(container.children);
   const totalWidth = container.scrollWidth;
-  const clone = container.innerHTML;
 
-  // Append clone to the container for seamless infinite scrolling
-  container.innerHTML += clone;
+  // Clone the icons to create a seamless infinite scroll effect
+  icons.forEach((icon) => {
+    const clone = icon.cloneNode(true);
+    container.appendChild(clone);
+  });
 
   let scrollAmount = 0;
 
   function scrollContainer() {
-    scrollAmount += 1; // Adjust scroll speed as needed
+    scrollAmount += 0.5; // Adjust scroll speed as needed
     container.style.transform = `translateX(-${scrollAmount}px)`;
 
     if (scrollAmount >= totalWidth) {
