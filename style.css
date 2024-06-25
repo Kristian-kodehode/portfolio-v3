@@ -327,7 +327,13 @@ Easier to navigate
 
 .intro-img {
   display: none;
-  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .intro-img-parent {
+  display: none;
   border: 1px solid var(--col-secondary80);
   border-radius: 8px;
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
@@ -335,7 +341,7 @@ Easier to navigate
   height: 18%;
   width: auto;
   transition: all ease-in 0.1s;
-}
+} */
 
 
 .intro-parapgraph {
@@ -737,7 +743,11 @@ Easier to navigate
     flex-direction: row;
     height: 100vh;
   }
+
   .intro-img {
+    display: block;
+  }
+  .intro-img-parent {
     display: block;
     height: 40%;
     width: 100%;
@@ -753,7 +763,7 @@ Easier to navigate
     transition: 0.3s;
   }
 
-  .intro-img:hover {
+  .intro-img-parent:hover {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   }
 
@@ -901,7 +911,7 @@ Easier to navigate
 
 @media only screen and (min-width: 1024px) {
 
-  .intro-img {
+  .intro-img-parent {
     height: 60%;
   }
 
