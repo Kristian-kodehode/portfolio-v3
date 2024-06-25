@@ -740,6 +740,7 @@ Easier to navigate
   .intro-img {
     display: block;
     height: 40%;
+    width: 100%;
   }
 
   .contact-me-sub {
