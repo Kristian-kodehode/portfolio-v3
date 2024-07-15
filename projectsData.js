@@ -5,7 +5,7 @@ const projectsData = {
       img: "images/solcellekart2.webp",
       heading: "Saas : Solcellekart (2024)",
       description:
-        "Hjelper deg å finne riktig solcelleløsning til ditt tak. Jeg hadde hovedansvar for dette prosjektet hos Solintegra. Rolle: Frontend | UX",
+        "Hjelper deg å finne riktig solcelleløsning til ditt tak. Dette var et av mine hovedansvar i min forrige stilling som frontend utvikler og ux.",
       showHtml: false,
       showCss: false,
       showJs: true,
@@ -18,9 +18,9 @@ const projectsData = {
     {
       id: 1,
       img: "images/ecomshop.webp",
-      heading: "Webshop : Nettbutikk (2023)",
+      heading: "Nettbutikk : Shoppi (2023)",
       description:
-        "En e-handelsnettbutikk laget i av React som et øvelsesprosjekt. Bruker fakestore api. Den henger sammen med Saferpay prosjektet.",
+        "En enkel og fiksjonell e-handelsnettbutikk laget i React + React Router. Data kommer fra fakestore api. Begynner-prosjekt.",
       showHtml: true,
       showCss: true,
       showJs: true,
@@ -36,7 +36,7 @@ const projectsData = {
       img: "images/Donut-color.png",
       heading: "App : HEX Generator (2023)",
       description:
-        "En HEX kode generator som viser fargen i en donut og lar deg kopiere HEX kodene til videre bruk. Gøy måte å velge seg nye farger på.",
+        "En kreativ og intuitiv måte å generere fargekoder. Ved bruk av three.js kan du rotere denne 3D donuten og finne dine farger.",
       showHtml: true,
       showCss: true,
       showJs: true,
@@ -49,38 +49,6 @@ const projectsData = {
     },
     {
       id: 3,
-      img: "images/SaferPayDesign.jpg",
-      heading: "Design : SaferPay (2023)",
-      description:
-        "En fiksjonell betalingsløsning for nettbutikker. Fokus her var layout og design + det hører sammen med WebShop prosjektet over.",
-      showHtml: false,
-      showCss: true,
-      showJs: true,
-      showReact: true,
-      showRouter: false,
-      showThree: false,
-      showFigma: true,
-      githubLink: "https://github.com/Kristian-kodehode/saferpay",
-      liveLink: "https://kristian-kodehode.github.io/saferpay/",
-    },
-    {
-      id: 4,
-      img: "images/foodie.png",
-      heading: "Nettside : Foodie (2023)",
-      description:
-        "Dette er en nettside med 3 nydelige oppskrifter. Denne er mitt testprosjekt for lære Next.js sammen med Sanity på backend.",
-      showHtml: false,
-      showCss: false,
-      showJs: true,
-      showReact: true,
-      showRouter: false,
-      showThree: false,
-      showFigma: true,
-      githubLink: "https://github.com/Kristian-kodehode/recipe",
-      liveLink: "https://recipe-alpha-pied.vercel.app/",
-    },
-    {
-      id: 5,
       img: "images/tictactoe.png",
       heading: "Spill : Tic Tac Toe (2023)",
       description:
@@ -96,7 +64,7 @@ const projectsData = {
       liveLink: "https://kristian-kodehode.github.io/react-tictactoe/",
     },
     {
-      id: 6,
+      id: 4,
       img: "images/stopwatch.png",
       heading: "App : Stoppeklokke (2023)",
       description:

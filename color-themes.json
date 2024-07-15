@@ -7,7 +7,7 @@
       "col-primary10": "hsla(0, 0%, 0.1, 0.1)",
       "col-secondary": "#FFFFFF",
       "col-secondary-hover": "#FAFAFA",
-      "col-secondary80": "hsl(0, 0%, 100%, 0.1)",
+      "col-secondary80": "hsl(0, 0%, 100%, 0.05)",
       "col-shadow": "#505050",
       "url-image": ""
     },
@@ -18,7 +18,7 @@
       "col-primary10": "hsla(0, 0%, 0.1, 0.1)",
       "col-secondary": "#0F3E60",
       "col-secondary-hover": "#1A374D",
-      "col-secondary80": "hsl(0, 0%, 20%, 0.1)",
+      "col-secondary80": "hsl(0, 0%, 10%, 0.05)",
       "col-shadow": "#ffffff",
       "url-image": ""
     }
