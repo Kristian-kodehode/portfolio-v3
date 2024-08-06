@@ -289,6 +289,13 @@ Easier to navigate
   padding-bottom: 2rem;
   max-width: 1024px;
 }
+.introduction > h1 {
+  font-weight: 900;
+}
+.introoutline {
+  color: var(--col-primary);
+  -webkit-text-stroke: var(--col-secondary) 2px;
+}
 
 .intro-img-link {
   height: 70%;
@@ -763,18 +770,19 @@ Easier to navigate
 /* @media only screen and (min-width: 1025px) {
 } */
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   .mainpage {
     display: flex;
     flex-direction: row;
     height: 100vh;
   }
   .introduction {
-    max-width: 720px;
+    max-width: 620px;
   }
 
   .intro-img {
     display: block;
+    width: 100%;
   }
   /* .intro-img-parent {
     height: 60%;
@@ -896,5 +904,6 @@ Easier to navigate
 @media only screen and (min-height: 1440px) {
   .introduction {
     height: 85vh;
+    max-width: 620px;
   }
 }
