@@ -547,7 +547,7 @@ Easier to navigate
 .about-me-top-paragraph-with-image-div {
   display: flex;
   gap: 16px;
-  height: 144px;
+  height: 244px;
 }
 .about-me-info-head {
   font-weight: 700;
