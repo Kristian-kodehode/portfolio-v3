@@ -5,7 +5,7 @@ const projectsData = {
       img: "images/solcellekart2.webp",
       heading: "Saas : Solcellekart (2024)",
       description:
-        "Hjelper deg å finne riktig solcelleløsning til ditt tak. Dette var et av mine hovedansvar i min forrige stilling som frontend utvikler og ux.",
+        "Hjelper deg å finne riktig solcelleløsning til ditt tak. Hovedansvar : Frontend utvikler og ux.",
       showHtml: false,
       showCss: false,
       showJs: true,
@@ -20,7 +20,7 @@ const projectsData = {
       img: "images/ecomshop.webp",
       heading: "Nettbutikk : Shoppi (2023)",
       description:
-        "En enkel og fiksjonell e-handelsnettbutikk laget i React + React Router. Data kommer fra fakestore api. Begynner-prosjekt.",
+        "Fiksjonell nettbutikk laget i React + React Router. Data kommer fra fakestore api.",
       showHtml: true,
       showCss: true,
       showJs: true,
@@ -36,7 +36,7 @@ const projectsData = {
       img: "images/Donut-color.png",
       heading: "App : HEX Generator (2023)",
       description:
-        "En kreativ og intuitiv måte å generere fargekoder. Ved bruk av three.js kan du rotere denne 3D donuten og finne dine farger.",
+        "En kreativ og intuitiv måte å generere fargekoder. Roter torus og finn din nye fargepalett.",
       showHtml: true,
       showCss: true,
       showJs: true,
@@ -52,7 +52,7 @@ const projectsData = {
       img: "images/tictactoe.png",
       heading: "Spill : Tic Tac Toe (2023)",
       description:
-        "Det klassiske spillet Tic Tac Toe laget i React. Et perfekt intro prosjekt til React som viser litt hva React har å by på.",
+        "Det klassiske spillet Tic Tac Toe i et nydelig, minimalt og moderne design.",
       showHtml: true,
       showCss: true,
       showJs: true,
@@ -68,7 +68,7 @@ const projectsData = {
       img: "images/stopwatch.png",
       heading: "App : Stoppeklokke (2023)",
       description:
-        "Javascript prosjekt hvor jeg fokuserte på å lære the basics av javascript, DOM manipulasjon og eksperimentere ned stil i CSS.",
+        "Det enkle er ofte det beste. Tidenes tøffeste stil (?) på en stoppeklokke laget i Javascript.",
       showHtml: true,
       showCss: true,
       showJs: true,
