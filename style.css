@@ -84,7 +84,8 @@ button {
   /* color: var(--col-secondary); */
   font-size: 1rem;
   font-weight: 700;
-  border-radius: 4px;
+  /* border-radius: 4px; */
+  border-radius: 6px;
   padding: 12px;
   cursor: pointer;
   margin-top: 16px;
@@ -414,16 +415,15 @@ Easier to navigate
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   border-radius: 12px;
-  box-shadow: -1px -1px 4px var(--col-shadow);
+  /* box-shadow: -1px -1px 4px var(--col-shadow); */
   overflow: hidden;
+  transition: all ease-in-out 0.4s;
   box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* .ui-card:hover {
-  
-} */
+
 .ui-cards-container a {
   list-style: none;
   cursor: default;
@@ -434,7 +434,7 @@ Easier to navigate
   object-fit: cover;
   cursor: pointer;
   filter: saturate(80%);
-  transition: 0.4s;
+  transition: all ease-in-out 0.3s;
 }
 
 .ui-card-text-container {
@@ -587,6 +587,7 @@ Easier to navigate
   text-align: center;
   background-color: var(--col-secondary80);
   padding: 2em 2em 5em;
+  border-radius: 8px;
   scale: (1);
   transition: 0.07s;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -639,6 +640,10 @@ Easier to navigate
 .accordion {
   padding-top: 90px;
   width: 100%;
+  /* border: 1px solid var(--col-secondary); */
+  /* box-shadow: 3px 3px 10px #37373710; */
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .accordion-header {
@@ -688,7 +693,8 @@ td {
 }
 .active {
   display: block;
-  box-shadow: 3px 3px 10px #37373720;
+  border-inline: 1px solid var(--col-secondary80);
+  /* box-shadow: 3px 3px 10px #37373720; */
 }
 .accordian-icons {
   font: 10px;
@@ -839,9 +845,15 @@ Easier to navigate
   button:hover .custom-hover-icon {
     transform: rotate(360deg);
   }
+
+  .ui-card:hover {
+    transform: scale(1.01);
+    /* box-shadow: 5px 6px 30px rgba(0, 0, 0, 0.1); */
+  }
+
   .ui-card-image:hover {
     filter: saturate(100%);
-    transform: scale(1.03);
+    transform: scale(1.02);
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
   }
 

@@ -17,22 +17,6 @@ const projectsData = {
     },
     {
       id: 1,
-      img: "images/ecomshop.webp",
-      heading: "Nettbutikk : Shoppi (2023)",
-      description:
-        "Fiksjonell nettbutikk laget i React + React Router. Data kommer fra fakestore api.",
-      showHtml: true,
-      showCss: true,
-      showJs: true,
-      showReact: true,
-      showRouter: true,
-      showThree: false,
-      showFigma: true,
-      githubLink: "https://github.com/Kristian-kodehode/ecommerce-userflow",
-      liveLink: "https://kristian-kodehode.github.io/ecommerce-userflow/",
-    },
-    {
-      id: 2,
       img: "images/Donut-color.png",
       heading: "App : HEX Generator (2023)",
       description:
@@ -48,7 +32,7 @@ const projectsData = {
       liveLink: "https://my-hex-generator.netlify.app/",
     },
     {
-      id: 3,
+      id: 2,
       img: "images/tictactoe.png",
       heading: "Spill : Tic Tac Toe (2023)",
       description:
@@ -62,6 +46,22 @@ const projectsData = {
       showFigma: false,
       githubLink: "https://github.com/Kristian-kodehode/react-tictactoe",
       liveLink: "https://kristian-kodehode.github.io/react-tictactoe/",
+    },
+    {
+      id: 3,
+      img: "images/ecomshop.webp",
+      heading: "Nettbutikk : Shoppi (2023)",
+      description:
+        "Fiksjonell nettbutikk laget i React + React Router. Data kommer fra fakestore api.",
+      showHtml: true,
+      showCss: true,
+      showJs: true,
+      showReact: true,
+      showRouter: true,
+      showThree: false,
+      showFigma: true,
+      githubLink: "https://github.com/Kristian-kodehode/ecommerce-userflow",
+      liveLink: "https://kristian-kodehode.github.io/ecommerce-userflow/",
     },
     {
       id: 4,
