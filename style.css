@@ -111,8 +111,6 @@ Standards
 nav {
   width: 100vw;
   background-color: var(--col-primary);
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
 }
 .navbar-top-logo {
   color: var(--col-secondary);
@@ -411,11 +409,7 @@ Easier to navigate
 }
 .ui-card {
   min-width: 350px;
-  /* background-color: var(--col-primary10); */
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
   border-radius: 12px;
-  /* box-shadow: -1px -1px 4px var(--col-shadow); */
   overflow: hidden;
   transition: all ease-in-out 0.4s;
   box-shadow: -1px -1px 4px var(--col-shadow), 5px 6px 20px rgba(0, 0, 0, 0.2);
@@ -591,8 +585,6 @@ Easier to navigate
   scale: (1);
   transition: 0.07s;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
   box-shadow: 3px 3px 10px #37373720;
 }
 
@@ -654,8 +646,6 @@ Easier to navigate
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
   font-weight: 700;
 }
 .accordion-header > p {
@@ -688,8 +678,6 @@ td {
 .accordion-content {
   display: none;
   padding: 16px;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
 }
 .active {
   display: block;
