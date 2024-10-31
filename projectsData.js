@@ -28,7 +28,7 @@ const projectsData = {
       showRouter: false,
       showThree: true,
       showFigma: false,
-      githubLink: "https://github.com/Kristian-kodehode/color-donut",
+      githubLink: "https://github.com/kristian-koningsberg/color-donut",
       liveLink: "https://my-hex-generator.netlify.app/",
     },
     {
@@ -44,8 +44,8 @@ const projectsData = {
       showRouter: false,
       showThree: false,
       showFigma: false,
-      githubLink: "https://github.com/Kristian-kodehode/react-tictactoe",
-      liveLink: "https://kristian-kodehode.github.io/react-tictactoe/",
+      githubLink: "https://github.com/kristian-koningsberg/react-tictactoe",
+      liveLink: "https://kristian-koningsberg.github.io/react-tictactoe/",
     },
     {
       id: 3,
@@ -60,8 +60,8 @@ const projectsData = {
       showRouter: true,
       showThree: false,
       showFigma: true,
-      githubLink: "https://github.com/Kristian-kodehode/ecommerce-userflow",
-      liveLink: "https://kristian-kodehode.github.io/ecommerce-userflow/",
+      githubLink: "https://github.com/kristian-koningsberg/ecommerce-userflow",
+      liveLink: "https://kristian-koningsberg.github.io/ecommerce-userflow/",
     },
     {
       id: 4,
@@ -76,8 +76,8 @@ const projectsData = {
       showRouter: false,
       showThree: false,
       showFigma: false,
-      githubLink: "https://github.com/Kristian-kodehode/02_Stopwatch",
-      liveLink: "https://kristian-kodehode.github.io/02_Stopwatch/",
+      githubLink: "https://github.com/kristian-koningsberg/02_Stopwatch",
+      liveLink: "https://kristian-koningsberg.github.io/02_Stopwatch/",
     },
   ],
 };
